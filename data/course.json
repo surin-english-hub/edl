@@ -3,61 +3,164 @@
   "blocks": [
     {
       "id": "info",
-      "title": "Course information", "titleTh": "ข้อมูลรายวิชา",
-      "table": { "kv": true, "rows": [
-        ["Course code\nรหัสวิชา", "00-400-070-003"],
-        ["Course title\nชื่อวิชา", "English in Daily Life\nภาษาอังกฤษในชีวิตประจำวัน"],
-        ["Credits\nหน่วยกิต", "3(2-2-5): 2 hours lecture, 2 hours practice, and 5 hours self-study per week\nบรรยาย 2 ชม. ปฏิบัติ 2 ชม. ศึกษาด้วยตนเอง 5 ชม. ต่อสัปดาห์"],
-        ["Semester\nภาคการศึกษา", "2/2026 · 2/2569"],
-        ["Level\nระดับภาษา", "Start: CEFR A1–A2 → Target: A2+, working towards B1\nเริ่มต้น A1–A2 → เป้าหมาย A2+ และพัฒนาไปสู่ B1"],
-        ["Instructors\nอาจารย์ผู้สอน", "**Mr. Suparat Walakanon** (อ.ศุภรัตน์ วัลกานนท์)\nSection คก.683A/2 · Room 2603\n\n**Ajarn Phuntsho Dorji (DJ)**\nSection จก.691A · Room คทจ.2602"]
-      ]}
+      "title": "Course information",
+      "titleTh": "ข้อมูลรายวิชา",
+      "table": {
+        "kv": true,
+        "rows": [
+          [
+            "Course code\nรหัสวิชา",
+            "00-400-070-003"
+          ],
+          [
+            "Course title\nชื่อวิชา",
+            "English in Daily Life\nภาษาอังกฤษในชีวิตประจำวัน"
+          ],
+          [
+            "Credits\nหน่วยกิต",
+            "3(2-2-5): 2 hours lecture, 2 hours practice, and 5 hours self-study per week\nบรรยาย 2 ชม. ปฏิบัติ 2 ชม. ศึกษาด้วยตนเอง 5 ชม. ต่อสัปดาห์"
+          ],
+          [
+            "Semester\nภาคการศึกษา",
+            "2/2026 · 2/2569"
+          ],
+          [
+            "Level\nระดับภาษา",
+            "Start: CEFR A1–A2 → Target: A2+, working towards B1\nเริ่มต้น A1–A2 → เป้าหมาย A2+ และพัฒนาไปสู่ B1"
+          ],
+          [
+            "Instructors\nอาจารย์ผู้สอน",
+            "**Mr. Suparat Walakanon** (อ.ศุภรัตน์ วัลกานนท์)\nSection คก.683A/2 · Room 2603\n\n**Ajarn Phuntsho Dorji (DJ)**\nSection จก.691A · Room คทจ.2602"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "outline",
+      "title": "Course outline",
+      "titleTh": "ประมวลรายวิชา (Course outline)",
+      "text": "Download the full course outline: weekly schedule, assessment, and course policies.",
+      "textTh": "ดาวน์โหลดประมวลรายวิชาฉบับเต็ม: แผนการสอนรายสัปดาห์ การวัดผล และข้อตกลงในชั้นเรียน",
+      "link": {
+        "href": "docs/EDL_CourseOutline_2-2026.pdf",
+        "label": "Download PDF · ดาวน์โหลด (8 pages, 0.3 MB)"
+      }
     },
     {
       "id": "description",
-      "title": "Course description", "titleTh": "คำอธิบายรายวิชา",
+      "title": "Course description",
+      "titleTh": "คำอธิบายรายวิชา",
       "text": "English vocabulary, expressions and sentences used in various situations; English practice in listening, speaking, reading and writing skills for everyday communication in various situations under international contexts and cultural diversity by using appropriate vocabulary, expressions and structures.",
       "textTh": "คำศัพท์ สำนวน และประโยคภาษาอังกฤษในชีวิตประจำวันในสถานการณ์ต่าง ๆ การฝึกปฏิบัติการใช้ทักษะภาษาอังกฤษในการฟัง พูด อ่าน และเขียน เพื่อการสื่อสารในชีวิตประจำวันตามสถานการณ์ต่าง ๆ ในบริบทนานาชาติและวัฒนธรรมที่หลากหลาย โดยเลือกใช้ศัพท์ สำนวนและโครงสร้างภาษาที่เหมาะสม"
     },
     {
       "id": "clos",
-      "title": "Course Learning Outcomes (CLOs)", "titleTh": "ผลลัพธ์การเรียนรู้ระดับรายวิชา",
+      "title": "Course Learning Outcomes (CLOs)",
+      "titleTh": "ผลลัพธ์การเรียนรู้ระดับรายวิชา",
       "text": "By the end of the course, you will be able to:",
       "textTh": "เมื่อเรียนจบรายวิชา นักศึกษาสามารถ",
       "list": [
-        { "en": "**CLO1** State English expressions and sentences used in international and culturally diverse contexts.", "th": "บอกสำนวน และประโยคภาษาอังกฤษในบริบทนานาชาติและวัฒนธรรมที่หลากหลาย" },
-        { "en": "**CLO2** Use English for listening, speaking, reading, and writing to communicate in international and culturally diverse contexts.", "th": "ใช้ภาษาอังกฤษในการฟัง พูด อ่าน และเขียน เพื่อการสื่อสาร ในบริบทนานาชาติและวัฒนธรรมที่หลากหลาย" },
-        { "en": "**CLO3** Work with others and take responsibility for assigned tasks.", "th": "ทำงานร่วมกับผู้อื่น มีความรับผิดชอบในการทำงานตามที่ได้รับมอบหมาย" }
+        {
+          "en": "**CLO1** State English expressions and sentences used in international and culturally diverse contexts.",
+          "th": "บอกสำนวน และประโยคภาษาอังกฤษในบริบทนานาชาติและวัฒนธรรมที่หลากหลาย"
+        },
+        {
+          "en": "**CLO2** Use English for listening, speaking, reading, and writing to communicate in international and culturally diverse contexts.",
+          "th": "ใช้ภาษาอังกฤษในการฟัง พูด อ่าน และเขียน เพื่อการสื่อสาร ในบริบทนานาชาติและวัฒนธรรมที่หลากหลาย"
+        },
+        {
+          "en": "**CLO3** Work with others and take responsibility for assigned tasks.",
+          "th": "ทำงานร่วมกับผู้อื่น มีความรับผิดชอบในการทำงานตามที่ได้รับมอบหมาย"
+        }
       ]
     },
     {
       "id": "evaluation",
-      "title": "Evaluation", "titleTh": "การวัดและประเมินผล",
+      "title": "Evaluation",
+      "titleTh": "การวัดและประเมินผล",
       "table": {
-        "head": ["Component\nองค์ประกอบ", "%", "When\nเมื่อไร"],
+        "head": [
+          "Component\nองค์ประกอบ",
+          "%",
+          "When\nเมื่อไร"
+        ],
         "rows": [
-          ["Attendance\nการเข้าชั้นเรียน", "10", "Every class\nทุกครั้ง"],
-          ["Weekly quizzes\nแบบทดสอบย่อย", "20", "8 quizzes in class: Weeks 3–6 and 9–12. **The best 7 count.**\n8 ครั้งในชั้นเรียน สัปดาห์ที่ 3–6 และ 9–12 **นับ 7 ครั้งที่ดีที่สุด**"],
-          ["Speaking Test 1: Interview\nสอบพูดครั้งที่ 1: สัมภาษณ์", "10", "Week 7"],
-          ["Speaking Test 2: Role-play in pairs\nสอบพูดครั้งที่ 2: บทบาทสมมติเป็นคู่", "10", "Week 15"],
-          ["Group project: *Surin Creator Guide* video\nโครงงานกลุ่ม: คลิปแนะนำสุรินทร์", "10", "Video due Week 14, showcase Week 15\nส่งสัปดาห์ที่ 14 นำเสนอสัปดาห์ที่ 15"],
-          ["Midterm exam\nสอบกลางภาค", "20", "Week 8 (content of Weeks 2–6)"],
-          ["Final exam\nสอบปลายภาค", "20", "Week 16 (content of Weeks 9–14)"],
-          { "total": true, "cells": ["Total · รวม", "100", ""] }
+          [
+            "Attendance\nการเข้าชั้นเรียน",
+            "10",
+            "Every class\nทุกครั้ง"
+          ],
+          [
+            "Weekly quizzes\nแบบทดสอบย่อย",
+            "20",
+            "8 quizzes in class: Weeks 3–6 and 9–12. **The best 7 count.**\n8 ครั้งในชั้นเรียน สัปดาห์ที่ 3–6 และ 9–12 **นับ 7 ครั้งที่ดีที่สุด**"
+          ],
+          [
+            "Speaking Test 1: Interview\nสอบพูดครั้งที่ 1: สัมภาษณ์",
+            "10",
+            "Week 7"
+          ],
+          [
+            "Speaking Test 2: Role-play in pairs\nสอบพูดครั้งที่ 2: บทบาทสมมติเป็นคู่",
+            "10",
+            "Week 15"
+          ],
+          [
+            "Group project: *Surin Creator Guide* video\nโครงงานกลุ่ม: คลิปแนะนำสุรินทร์",
+            "10",
+            "Video due Week 14, showcase Week 15\nส่งสัปดาห์ที่ 14 นำเสนอสัปดาห์ที่ 15"
+          ],
+          [
+            "Midterm exam\nสอบกลางภาค",
+            "20",
+            "Week 8 (content of Weeks 2–6)"
+          ],
+          [
+            "Final exam\nสอบปลายภาค",
+            "20",
+            "Week 16 (content of Weeks 9–14)"
+          ],
+          {
+            "total": true,
+            "cells": [
+              "Total · รวม",
+              "100",
+              ""
+            ]
+          }
         ]
       },
       "note": "**Grades · เกรด:** A 80–100 · B+ 75–79 · B 70–74 · C+ 65–69 · C 60–64 · D+ 55–59 · D 50–54 · F 0–49"
     },
     {
       "id": "policies",
-      "title": "Course policies", "titleTh": "ข้อตกลงในชั้นเรียน",
+      "title": "Course policies",
+      "titleTh": "ข้อตกลงในชั้นเรียน",
       "list": [
-        { "en": "**Attendance:** attend at least 80% of classes to take the final exam.", "th": "ต้องมีเวลาเรียนไม่น้อยกว่าร้อยละ 80 จึงจะมีสิทธิ์สอบปลายภาค" },
-        { "en": "**Quizzes:** you can make up a missed quiz if you have a good reason. The best 7 of 8 count.", "th": "ขอสอบแทนครั้งที่ขาดได้หากมีเหตุผลอันสมควร นับ 7 ครั้งที่ดีที่สุดจาก 8 ครั้ง" },
-        { "en": "**Speaking tests and exams:** a make-up is possible with a good reason and/or an official letter (e.g., a medical certificate).", "th": "ขอสอบแทนได้หากมีเหตุผลอันสมควร และ/หรือมีหนังสือรับรองอย่างเป็นทางการ (เช่น ใบรับรองแพทย์)" },
-        { "en": "**Late work:** the group project loses 10% of its score for each day it is late.", "th": "โครงงานกลุ่มส่งช้าหักคะแนนวันละร้อยละ 10" },
-        { "en": "**Using AI:** you may use AI to check or polish your English, but you must say so. Your scripts and ideas must be your own.", "th": "ใช้ AI ช่วยตรวจหรือปรับภาษาได้ แต่ต้องบอกว่าใช้ บทพูดและความคิดต้องเป็นของนักศึกษาเอง" },
-        { "en": "**Academic honesty:** do not copy other people’s work.", "th": "ห้ามคัดลอกผลงานของผู้อื่น" }
+        {
+          "en": "**Attendance:** attend at least 80% of classes to take the final exam.",
+          "th": "ต้องมีเวลาเรียนไม่น้อยกว่าร้อยละ 80 จึงจะมีสิทธิ์สอบปลายภาค"
+        },
+        {
+          "en": "**Quizzes:** you can make up a missed quiz if you have a good reason. The best 7 of 8 count.",
+          "th": "ขอสอบแทนครั้งที่ขาดได้หากมีเหตุผลอันสมควร นับ 7 ครั้งที่ดีที่สุดจาก 8 ครั้ง"
+        },
+        {
+          "en": "**Speaking tests and exams:** a make-up is possible with a good reason and/or an official letter (e.g., a medical certificate).",
+          "th": "ขอสอบแทนได้หากมีเหตุผลอันสมควร และ/หรือมีหนังสือรับรองอย่างเป็นทางการ (เช่น ใบรับรองแพทย์)"
+        },
+        {
+          "en": "**Late work:** the group project loses 10% of its score for each day it is late.",
+          "th": "โครงงานกลุ่มส่งช้าหักคะแนนวันละร้อยละ 10"
+        },
+        {
+          "en": "**Using AI:** you may use AI to check or polish your English, but you must say so. Your scripts and ideas must be your own.",
+          "th": "ใช้ AI ช่วยตรวจหรือปรับภาษาได้ แต่ต้องบอกว่าใช้ บทพูดและความคิดต้องเป็นของนักศึกษาเอง"
+        },
+        {
+          "en": "**Academic honesty:** do not copy other people’s work.",
+          "th": "ห้ามคัดลอกผลงานของผู้อื่น"
+        }
       ]
     }
   ]
