@@ -41,7 +41,7 @@
     });
   }
   // **bold** only, after escaping
-  function rich(s) { return esc(s).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>'); }
+  function rich(s) { return esc(s).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/\*([^*\s][^*]*?)\*/g, '<i>$1</i>'); }
 
   /* ---------- profile (name, ID, section) ---------- */
   var PKEY = 'edl.profile';
@@ -108,7 +108,35 @@
     });
   }
 
-  window.EDL = { CONFIG: CONFIG, store: store, el: el, esc: esc, rich: rich, getProfile: getProfile,
+  /* ---------- content blocks (used by week Start tab and course.html) ---------- */
+  function cellHTML(s) { return rich(s == null ? '' : s).replace(/\n/g, '<br>'); }
+  function block(b) {
+    var kids = [el('h2', null, [b.title + ' ', b.titleTh ? el('span', { class: 'th', text: '· ' + b.titleTh }) : null])];
+    if (b.text) kids.push(el('p', { html: cellHTML(b.text) }));
+    if (b.textTh) kids.push(el('p', { class: 'muted', html: cellHTML(b.textTh) }));
+    if (b.list) kids.push(el('ul', { class: 'blist' }, b.list.map(function (li) {
+      return el('li', null, [el('span', { html: rich(li.en) }), li.th ? el('div', { class: 'small muted', html: rich(li.th) }) : null]);
+    })));
+    if (b.table) {
+      var t = b.table;
+      kids.push(el('div', { class: 'tbl-wrap' }, [el('table', { class: 'tbl' + (t.kv ? ' kv' : '') }, [
+        t.head ? el('thead', null, [el('tr', null, t.head.map(function (h) { return el('th', { scope: 'col', html: cellHTML(h) }); }))]) : null,
+        el('tbody', null, t.rows.map(function (r) {
+          return el('tr', { class: r.total ? 'total' : null }, (r.cells || r).map(function (c, k) {
+            return el(k === 0 && t.kv ? 'th' : 'td', k === 0 && t.kv ? { scope: 'row', html: cellHTML(c) } : { html: cellHTML(c) });
+          }));
+        }))
+      ])]));
+    }
+    if (b.note) kids.push(el('p', { class: 'small muted', html: cellHTML(b.note) }));
+    if (b.image) kids.push(el('figure', { class: 'figure', style: 'margin:0' }, [
+      el('img', { src: b.image.src, alt: b.image.alt || '', loading: 'lazy' }),
+      b.image.caption ? el('figcaption', { text: b.image.caption }) : null]));
+    if (b.link) kids.push(el('a', { class: 'btn primary', href: b.link.href, style: 'align-self:flex-start' }, [b.link.label]));
+    return el('section', { class: 'card stack', id: b.id || null }, kids);
+  }
+
+  window.EDL = { CONFIG: CONFIG, store: store, el: el, esc: esc, rich: rich, getProfile: getProfile, block: block,
     profileDialog: profileDialog, renderUserChip: renderUserChip, getProgress: getProgress,
     markDone: markDone, fetchJSON: fetchJSON };
 

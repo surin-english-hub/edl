@@ -240,11 +240,17 @@
         s.questions ? el('ol', { style: 'margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px' }, s.questions.map(function (q) {
           return el('li', null, [q.en, q.th ? el('div', { class: 'small muted', text: q.th }) : null]); })) : null], 'stack'));
       (s.blocks || []).forEach(function (b) {
-        out.push(card([h2(b.title, b.titleTh), b.text ? el('p', { html: rich(b.text) }) : null, b.textTh ? el('p', { class: 'muted', text: b.textTh }) : null,
-          b.list ? el('ul', { style: 'margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px' }, b.list.map(function (li) {
-            return el('li', null, [el('span', { html: rich(li.en) }), li.th ? el('div', { class: 'small muted', text: li.th }) : null]); })) : null,
-          b.image ? figure(b.image) : null,
-          b.link ? el('a', { class: 'btn primary', href: b.link.href, style: 'align-self:flex-start' }, [b.link.label]) : null], 'stack'));
+        if (b.include === 'course') {
+          // Course information comes from data/course.json (same source as course.html)
+          var slot = el('div', { class: 'stack' }, [el('p', { class: 'muted', text: 'Loading course information… · กำลังโหลด' })]);
+          E.fetchJSON('data/course.json').then(function (c) {
+            slot.innerHTML = '';
+            c.blocks.forEach(function (cb) { slot.appendChild(E.block(cb)); });
+          }).catch(function () { slot.innerHTML = ''; slot.appendChild(el('a', { href: 'course.html', text: 'Open course information · เปิดข้อมูลรายวิชา' })); });
+          out.push(slot);
+          return;
+        }
+        out.push(E.block(b));
       });
       if (!out.length) out.push(card([el('p', { class: 'muted', text: 'Nothing here this week. · สัปดาห์นี้ไม่มีส่วนนี้' })]));
       return out;
@@ -434,6 +440,25 @@
     root.appendChild(el('div', { class: 'layout' }, [content, aside]));
     refreshChecklist();
     select((location.hash || '').slice(1) || tabs[0].id);
+
+    // previous / next open week
+    var pager = el('nav', { class: 'pager', 'aria-label': 'Weeks' });
+    root.appendChild(pager);
+    E.fetchJSON('data/weeks.json').then(function (d) {
+      var open = [].concat.apply([], d.phases.map(function (p) { return p.weeks; }))
+        .filter(function (w) { return w.status === 'open' || w.status === 'done'; });
+      var idx = open.findIndex(function (w) { return w.week === Number(wk); });
+      var prev = open[idx - 1], next = open[idx + 1];
+      function link(w, dir) {
+        var n = String(w.week).padStart(2, '0');
+        return el('a', { class: 'pg ' + dir, href: 'week.html?w=' + n }, [
+          el('span', { class: 'small muted', text: dir === 'prev' ? '← Previous · ก่อนหน้า' : 'Next · ถัดไป →' }),
+          el('b', { text: 'Week ' + w.week + ' · ' + w.title })]);
+      }
+      if (prev) pager.appendChild(link(prev, 'prev'));
+      if (next) pager.appendChild(link(next, 'next'));
+      if (!prev && !next) pager.remove();
+    }).catch(function () { pager.remove(); });
   }
 
   function fail(msg) {

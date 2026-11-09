@@ -5,47 +5,91 @@
   "phase": "Phase 1",
   "_source": "EDL_Week01_ActivitySheet.docx (Orientation). Check wording against the approved activity sheet before publishing.",
   "cando": [
-    { "en": "I can say hello and introduce myself in English.", "th": "ทักทายและแนะนำตัวเป็นภาษาอังกฤษได้" },
-    { "en": "I can explain how this course works.", "th": "อธิบายได้ว่ารายวิชานี้เรียนและวัดผลอย่างไร" },
-    { "en": "I can write one English goal for this semester.", "th": "เขียนเป้าหมายภาษาอังกฤษของตัวเองได้ 1 ข้อ" }
+    {
+      "en": "I can say hello and introduce myself in English.",
+      "th": "ทักทายและแนะนำตัวเป็นภาษาอังกฤษได้"
+    },
+    {
+      "en": "I can explain how this course works and how I am graded.",
+      "th": "อธิบายได้ว่ารายวิชานี้เรียนและวัดผลอย่างไร"
+    },
+    {
+      "en": "I can write one English goal for this semester.",
+      "th": "เขียนเป้าหมายภาษาอังกฤษของตัวเองได้ 1 ข้อ"
+    }
   ],
   "start": {
     "blocks": [
       {
-        "title": "Welcome!", "titleTh": "ยินดีต้อนรับ",
+        "title": "Welcome!",
+        "titleTh": "ยินดีต้อนรับ",
         "text": "This course helps you use English in your **real life**: online and face to face.",
         "textTh": "รายวิชานี้ช่วยให้คุณใช้ภาษาอังกฤษในชีวิตจริง ทั้งในโลกออนไลน์และการพบหน้ากัน"
       },
       {
-        "title": "How each week works", "titleTh": "แต่ละสัปดาห์เรียนอย่างไร",
+        "include": "course"
+      },
+      {
+        "title": "How each week works",
+        "titleTh": "แต่ละสัปดาห์เรียนอย่างไร",
         "list": [
-          { "en": "**In class:** listen, learn the key expressions, and practise speaking.", "th": "ในห้อง: ฟัง เรียนสำนวนสำคัญ และฝึกพูด" },
-          { "en": "**Weekly quiz:** a short quiz in class on Google Forms. The best 10 count.", "th": "แบบทดสอบประจำสัปดาห์: ทำในห้องผ่าน Google Forms นับ 10 ครั้งที่ดีที่สุด" },
-          { "en": "**After class:** practise on this site. Words → Listen → Practice → Speak.", "th": "หลังเรียน: ฝึกบนเว็บนี้ คำศัพท์ → ฟัง → แบบฝึก → พูด" },
-          { "en": "**Speaking tests:** Week 7 (interview) and Week 15 (role-play with a partner).", "th": "สอบพูด: สัปดาห์ที่ 7 (สัมภาษณ์) และสัปดาห์ที่ 15 (บทบาทสมมติเป็นคู่)" },
-          { "en": "**Group project:** *Surin Creator Guide*, a short video for visitors to Surin.", "th": "โครงงานกลุ่ม: คลิปวิดีโอแนะนำสุรินทร์สำหรับชาวต่างชาติ" }
+          {
+            "en": "**In class:** listen, learn the key expressions, and practise speaking.",
+            "th": "ในห้อง: ฟัง เรียนสำนวนสำคัญ และฝึกพูด"
+          },
+          {
+            "en": "**Weekly quiz:** a short quiz in class on Google Forms in Weeks 3–6 and 9–12. The best 7 of 8 count.",
+            "th": "แบบทดสอบประจำสัปดาห์: ทำในห้องผ่าน Google Forms สัปดาห์ที่ 3–6 และ 9–12 นับ 7 ครั้งที่ดีที่สุดจาก 8 ครั้ง"
+          },
+          {
+            "en": "**After class:** practise on this site. Words → Listen → Practice → Speak.",
+            "th": "หลังเรียน: ฝึกบนเว็บนี้ คำศัพท์ → ฟัง → แบบฝึก → พูด"
+          },
+          {
+            "en": "**Speaking tests:** Week 7 (interview) and Week 15 (role-play with a partner).",
+            "th": "สอบพูด: สัปดาห์ที่ 7 (สัมภาษณ์) และสัปดาห์ที่ 15 (บทบาทสมมติเป็นคู่)"
+          },
+          {
+            "en": "**Group project:** *Surin Creator Guide*, a short video for visitors to Surin.",
+            "th": "โครงงานกลุ่ม: คลิปวิดีโอแนะนำสุรินทร์สำหรับชาวต่างชาติ"
+          }
         ]
       },
       {
-        "title": "Meet Ploy and Mark", "titleTh": "รู้จัก Ploy และ Mark",
+        "title": "Meet Ploy and Mark",
+        "titleTh": "รู้จัก Ploy และ Mark",
         "text": "You will meet them every week.",
         "textTh": "ทั้งสองคนจะอยู่ในบทเรียนทุกสัปดาห์",
         "list": [
-          { "en": "**Ploy** (Siriporn) is 19. She is from Surin. She is a first-year accounting student at RMUTI Surin. She likes coffee and music.", "th": "Ploy อายุ 19 ปี มาจากสุรินทร์ เรียนบัญชีปี 1 ชอบกาแฟและดนตรี" },
-          { "en": "**Mark** is from Cebu, the Philippines. He is an exchange student. He studies tourism. He likes taking photos and Thai food.", "th": "Mark มาจากเซบู ฟิลิปปินส์ เป็นนักศึกษาแลกเปลี่ยน เรียนการท่องเที่ยว ชอบถ่ายรูปและอาหารไทย" }
+          {
+            "en": "**Ploy** (Siriporn) is 19. She is from Surin. She is a first-year accounting student at RMUTI Surin. She likes coffee and music.",
+            "th": "Ploy อายุ 19 ปี มาจากสุรินทร์ เรียนบัญชีปี 1 ชอบกาแฟและดนตรี"
+          },
+          {
+            "en": "**Mark** is from Cebu, the Philippines. He is an exchange student. He studies tourism. He likes taking photos and Thai food.",
+            "th": "Mark มาจากเซบู ฟิลิปปินส์ เป็นนักศึกษาแลกเปลี่ยน เรียนการท่องเที่ยว ชอบถ่ายรูปและอาหารไทย"
+          }
         ],
-        "image": { "src": "img/ploy_mark_campus.webp", "alt": "Ploy and Mark wave hello on campus (cartoon illustration)" }
+        "image": {
+          "src": "img/ploy_mark_campus.webp",
+          "alt": "Ploy and Mark wave hello on campus (cartoon illustration)"
+        }
       },
       {
-        "title": "My English goal", "titleTh": "เป้าหมายภาษาอังกฤษของฉัน",
+        "title": "My English goal",
+        "titleTh": "เป้าหมายภาษาอังกฤษของฉัน",
         "text": "Finish the sentence in your notebook: **This semester, I want to ___ in English.**",
         "textTh": "เขียนต่อในสมุด: ภาคเรียนนี้ ฉันอยากจะ ___ เป็นภาษาอังกฤษ (เช่น order coffee, talk to a foreign friend, understand a series)"
       },
       {
-        "title": "Before Week 2", "titleTh": "ก่อนเรียนสัปดาห์ที่ 2",
+        "title": "Before Week 2",
+        "titleTh": "ก่อนเรียนสัปดาห์ที่ 2",
         "text": "Open Week 2 and look at the **Words** tab.",
         "textTh": "เปิดสัปดาห์ที่ 2 แล้วดูคำศัพท์ในแท็บ Words ล่วงหน้า",
-        "link": { "href": "week.html?w=02#words", "label": "Go to Week 2 →" }
+        "link": {
+          "href": "week.html?w=02#words",
+          "label": "Go to Week 2 →"
+        }
       }
     ]
   },
