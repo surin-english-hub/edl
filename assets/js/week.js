@@ -238,7 +238,7 @@
       var out = [];
       if (s.images && s.images.length) out.push(card([h2(s.title || 'Warm-up', s.titleTh || 'อุ่นเครื่อง'), el('div', { class: 'imgs' }, s.images.map(figure)),
         s.questions ? el('ol', { style: 'margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px' }, s.questions.map(function (q) {
-          return el('li', null, [q.en, q.th ? el('div', { class: 'small muted', text: q.th }) : null]); })) : null]));
+          return el('li', null, [q.en, q.th ? el('div', { class: 'small muted', text: q.th }) : null]); })) : null], 'stack'));
       (s.blocks || []).forEach(function (b) {
         out.push(card([h2(b.title, b.titleTh), b.text ? el('p', { html: rich(b.text) }) : null, b.textTh ? el('p', { class: 'muted', text: b.textTh }) : null,
           b.list ? el('ul', { style: 'margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px' }, b.list.map(function (li) {
