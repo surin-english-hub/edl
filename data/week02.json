@@ -1,0 +1,147 @@
+{
+  "status": "open",
+  "title": "Hey, Let’s Connect! Me & My People",
+  "titleTh": "ทักทาย แนะนำตัว และคนสำคัญของฉัน",
+  "phase": "Phase 1",
+  "_source": "Built from the approved Week 1 handout (now Week 2): Script A, Listen & Notice tasks, grammar practice, reading, writing frame, shadowing. 'My People' additions and the full vocabulary table still to be synced from EDL_Week02_Handout.docx. Script B (Bank & Priya) is NOT on the site: make-up quiz only.",
+  "cando": [
+    { "en": "I can say hello and introduce myself.", "th": "ทักทายและแนะนำตัวได้" },
+    { "en": "I can ask where someone is from and what they study.", "th": "ถามได้ว่าอีกฝ่ายมาจากไหนและเรียนอะไร" },
+    { "en": "I can ask someone to repeat or spell a word.", "th": "ขอให้อีกฝ่ายพูดซ้ำหรือสะกดคำได้" }
+  ],
+  "start": {
+    "title": "Warm-up", "titleTh": "อุ่นเครื่อง",
+    "images": [
+      { "src": "img/w02_ploy_profile.webp", "alt": "A chat app profile: Ploy, Siriporn, Accounting, Year 1, RMUTI Surin, Surin, Thailand. Bio: Hi! Coffee lover. Let's be friends!", "caption": "Ploy’s profile" },
+      { "src": "img/w02_mark_request.webp", "alt": "A friend request from Mark Santos, Tourism, Year 2, exchange student from Cebu, Philippines: Hi Ploy! Nice to meet you today. Can I add you?", "caption": "A friend request from Mark" }
+    ],
+    "questions": [
+      { "en": "What’s her name? What do her friends call her?", "th": "เธอชื่ออะไร เพื่อนเรียกเธอว่าอะไร" },
+      { "en": "Where is Mark from? What’s his major?", "th": "Mark มาจากไหน เรียนสาขาอะไร" },
+      { "en": "Do you add new friends online?", "th": "คุณแอดเพื่อนใหม่ทางออนไลน์ไหม" }
+    ]
+  },
+  "_words_todo": "Replace with the exact 10–12 words from the handout vocabulary table.",
+  "words": [
+    { "word": "welcome", "th": "ยินดีต้อนรับ", "example": "Welcome to RMUTI Surin!" },
+    { "word": "new student", "th": "นักศึกษาใหม่", "example": "Are you a new student?" },
+    { "word": "exchange student", "th": "นักศึกษาแลกเปลี่ยน", "example": "I’m an exchange student." },
+    { "word": "hometown", "th": "บ้านเกิด", "example": "My hometown is Cebu." },
+    { "word": "major", "th": "วิชาเอก, สาขาที่เรียน", "example": "What’s your major?" },
+    { "word": "first-year student", "th": "นักศึกษาปี 1", "example": "I’m a first-year student." },
+    { "word": "accounting", "th": "การบัญชี", "example": "My major is accounting." },
+    { "word": "tourism", "th": "การท่องเที่ยว", "example": "Mark studies tourism." },
+    { "word": "spell", "th": "สะกด", "example": "How do you spell that?" },
+    { "word": "city", "th": "เมือง", "example": "Is it a big city?" },
+    { "word": "friendly", "th": "เป็นมิตร", "example": "The people are friendly." },
+    { "word": "add (a friend)", "th": "เพิ่มเพื่อน (ในแอป)", "example": "Can I add you?" }
+  ],
+  "listen": {
+    "title": "Script A · Nice to meet you", "titleTh": "บทสนทนา Ploy และ Mark",
+    "setting": "RMUTI Surin campus, first day of the semester, morning · มหาวิทยาลัย วันแรกของภาคเรียน ตอนเช้า",
+    "image": { "src": "img/w02_campus_scene.webp", "alt": "Ploy and Mark meet on campus in the morning (cartoon illustration)" },
+    "audio": { "slow": "audio/w02_scriptA_slow.mp3", "normal": "audio/w02_scriptA_normal.mp3" },
+    "script": [
+      { "who": "PLOY", "en": "Hi! Are you a new student?", "th": "สวัสดี คุณเป็นนักศึกษาใหม่เหรอ" },
+      { "who": "MARK", "en": "Yes, I am. I’m an exchange student.", "th": "ใช่ ผมเป็นนักศึกษาแลกเปลี่ยน" },
+      { "who": "PLOY", "en": "Welcome to RMUTI Surin! My name is Siriporn, but please call me Ploy.", "th": "ยินดีต้อนรับสู่ มทร.อีสาน วิทยาเขตสุรินทร์ ฉันชื่อศิริพร แต่เรียกฉันว่าพลอยนะ" },
+      { "who": "MARK", "en": "Nice to meet you, Ploy. I’m Mark.", "th": "ยินดีที่ได้รู้จัก พลอย ผมชื่อมาร์ก" },
+      { "who": "PLOY", "en": "Nice to meet you, too. Where are you from, Mark?", "th": "ยินดีที่ได้รู้จักเช่นกัน คุณมาจากไหน" },
+      { "who": "MARK", "en": "I’m from the Philippines. My hometown is Cebu.", "th": "ผมมาจากฟิลิปปินส์ บ้านเกิดผมคือเซบู" },
+      { "pause": true },
+      { "who": "PLOY", "en": "Cool! What’s your major?", "th": "เจ๋งเลย เรียนสาขาอะไร" },
+      { "who": "MARK", "en": "Tourism. I’m a second-year student. And you?", "th": "การท่องเที่ยว ผมอยู่ปี 2 แล้วคุณล่ะ" },
+      { "who": "PLOY", "en": "I’m a first-year student. My major is accounting.", "th": "ฉันอยู่ปี 1 เรียนบัญชี" },
+      { "who": "MARK", "en": "Sorry? Can you say that again, please?", "th": "ขอโทษนะ พูดอีกครั้งได้ไหม" },
+      { "who": "PLOY", "en": "Accounting. A-C-C-O-U-N-T-I-N-G.", "th": "บัญชี (สะกด)" },
+      { "who": "MARK", "en": "Oh, accounting! Thanks. Is Surin your hometown?", "th": "อ๋อ บัญชี ขอบคุณ สุรินทร์เป็นบ้านเกิดของคุณเหรอ" },
+      { "who": "PLOY", "en": "Yes, it is. My family is here, in Surin.", "th": "ใช่ ครอบครัวฉันอยู่ที่สุรินทร์" },
+      { "who": "MARK", "en": "Is it a big city?", "th": "เป็นเมืองใหญ่ไหม" },
+      { "who": "PLOY", "en": "No, it isn’t. It’s small, but the people are friendly.", "th": "ไม่ใหญ่ เป็นเมืองเล็ก แต่ผู้คนเป็นมิตร" },
+      { "pause": true },
+      { "who": "MARK", "en": "Oh, it’s nine o’clock. My class is at nine.", "th": "อ้าว เก้าโมงแล้ว ผมมีเรียนเก้าโมง" },
+      { "who": "PLOY", "en": "Nice talking to you, Mark. See you later!", "th": "ยินดีที่ได้คุยด้วยนะ แล้วเจอกัน" },
+      { "who": "MARK", "en": "See you, Ploy!", "th": "แล้วเจอกัน พลอย" }
+    ],
+    "exercises": [
+      { "title": "1 · The main idea", "titleTh": "ใจความหลัก", "type": "mc", "items": [
+        { "q": "Where are Ploy and Mark?", "qTh": "Ploy กับ Mark อยู่ที่ไหน", "options": ["at a café", "at a university", "at an airport"], "answer": 1,
+          "fbOk": "ทั้งสองคนอยู่ที่ RMUTI Surin ในวันแรกของภาคเรียน", "fbNo": "ฟังประโยค “Welcome to RMUTI Surin!” อีกครั้ง" }
+      ]},
+      { "title": "2 · True or false?", "titleTh": "จริงหรือไม่จริง", "type": "tf", "items": [
+        { "q": "Mark is from Cebu.", "answer": true, "why": "Mark พูดว่า “My hometown is Cebu.”" },
+        { "q": "Mark is a first-year student.", "answer": false, "why": "Mark อยู่ปี 2: “I’m a second-year student.”" },
+        { "q": "Ploy’s major is accounting.", "answer": true, "why": "Ploy พูดว่า “My major is accounting.”" },
+        { "q": "Surin is a big city.", "answer": false, "why": "Ploy พูดว่า “It’s small, but the people are friendly.”" },
+        { "q": "Ploy’s family is in Surin.", "answer": true, "why": "Ploy พูดว่า “My family is here, in Surin.”" }
+      ]},
+      { "title": "3 · Complete the chunks", "titleTh": "เติมกลุ่มคำให้ครบ", "type": "gap", "bank": ["meet", "call", "from", "again"], "items": [
+        { "q": "Nice to ___ you.", "answer": "meet", "fbOk": "Nice to meet you. = ยินดีที่ได้รู้จัก" },
+        { "q": "Please ___ me Ploy.", "answer": "call", "fbOk": "Please call me… = เรียกฉันว่า…" },
+        { "q": "Where are you ___, Mark?", "answer": "from", "fbOk": "Where are you from? = คุณมาจากไหน" },
+        { "q": "Sorry? Can you say that ___, please?", "answer": "again", "fbOk": "say that again = พูดอีกครั้ง" }
+      ]},
+      { "title": "4 · Who says it?", "titleTh": "ใครพูด", "type": "mc", "items": [
+        { "q": "I’m from the Philippines.", "options": ["Ploy", "Mark"], "answer": 1, "inline": true, "why": "Mark มาจากฟิลิปปินส์" },
+        { "q": "My major is accounting.", "options": ["Ploy", "Mark"], "answer": 0, "inline": true, "why": "Ploy เรียนบัญชี" },
+        { "q": "Is it a big city?", "options": ["Ploy", "Mark"], "answer": 1, "inline": true, "why": "Mark ถามเรื่องสุรินทร์" },
+        { "q": "My class is at nine.", "options": ["Ploy", "Mark"], "answer": 1, "inline": true, "why": "Mark ต้องไปเรียนตอนเก้าโมง" }
+      ]}
+    ]
+  },
+  "practice": [
+    { "title": "Grammar A · am, is, are", "titleTh": "เลือก am / is / are",
+      "instructions": "ภาษาอังกฤษต้องมี am / is / are ในประโยคที่ไม่มีกริยาอื่น · I → am, he/she/it → is, you/we/they → are",
+      "type": "gap", "bank": ["am", "is", "are"], "items": [
+        { "q": "I ___ a first-year student.", "answer": "am", "fbNo": "ใช้ am กับ I" },
+        { "q": "Mark ___ from the Philippines.", "answer": "is", "fbNo": "Mark = he → ใช้ is" },
+        { "q": "We ___ classmates.", "answer": "are", "fbNo": "ใช้ are กับ we" },
+        { "q": "My hometown ___ Surin.", "answer": "is", "fbNo": "my hometown = it → ใช้ is" },
+        { "q": "___ you from Bangkok?", "answer": "Are", "bank": ["Am", "Is", "Are"], "fbNo": "คำถามกับ you ใช้ Are ไว้หน้าประโยค" }
+      ]},
+    { "title": "Grammar B · Which one is correct?", "titleTh": "ประโยคไหนถูก", "type": "mc", "items": [
+      { "q": "Choose the correct sentence.", "options": ["She from Japan.", "She’s from Japan."], "answer": 1, "why": "ต้องมี is: She’s = She is" },
+      { "q": "Are you a student?", "options": ["Yes, I’m.", "Yes, I am."], "answer": 1, "why": "คำตอบสั้นห้ามย่อ: Yes, I am." },
+      { "q": "Choose the correct sentence.", "options": ["They is my friends.", "They are my friends."], "answer": 1, "why": "They ใช้ are" },
+      { "q": "Choose the correct sentence.", "options": ["I student.", "I’m a student."], "answer": 1, "why": "ต้องมี am และ a: I’m a student." }
+    ]},
+    { "title": "Build the sentence", "titleTh": "เรียงคำเป็นประโยค", "type": "order", "items": [
+      { "answer": "Where are you from?", "words": ["from?", "you", "Where", "are"], "qTh": "คุณมาจากไหน" },
+      { "answer": "Please call me Ploy.", "words": ["me", "Please", "Ploy.", "call"], "qTh": "เรียกฉันว่าพลอยนะ" },
+      { "answer": "Can I add you?", "words": ["add", "I", "you?", "Can"], "qTh": "ขอแอดเป็นเพื่อนได้ไหม" }
+    ]},
+    { "title": "Reading · A class group post", "titleTh": "อ่านโพสต์ในกลุ่มคลาส",
+      "reading": "Hello, everyone! My name is Ana Souza. I’m from Brazil. My hometown is Curitiba. It’s a big city in the south of Brazil. I’m an exchange student at RMUTI Surin for one semester. My major is agriculture. My Thai friends are very kind. They call me “Nong Ana”! My Thai is not very good. Please help me! Are you a student here, too? Please say hello!",
+      "type": "mc", "items": [
+        { "q": "Where is Ana from?", "options": ["Brazil", "the Philippines", "Thailand"], "answer": 0, "why": "“I’m from Brazil.”" },
+        { "q": "Curitiba is a small city.", "options": ["True", "False"], "answer": 1, "inline": true, "why": "“It’s a big city.”" },
+        { "q": "What is her major?", "options": ["accounting", "tourism", "agriculture"], "answer": 2, "why": "“My major is agriculture.”" },
+        { "q": "What do her Thai friends call her?", "options": ["Ana Souza", "Nong Ana", "Curitiba"], "answer": 1, "why": "“They call me Nong Ana!”" }
+      ]}
+  ],
+  "speak": {
+    "audio": { "slow": "audio/w02_scriptA_slow.mp3", "normal": "audio/w02_scriptA_normal.mp3" },
+    "_shadowing_todo": "Check the full 6–8 lines against the L&S pack shadowing sheet.",
+    "shadowing": [
+      "Hi! / Are you a **new stu**dent?",
+      "Wel**come** to R-M-U-T-I **Su**rin!",
+      "My **name** is Siri**porn**, / but please **call** me **Ploy**.",
+      "Nice to **meet** you, / **Ploy**. / I’m **Mark**.",
+      "**Where** are you **from**, / Mark?",
+      "**Sor**ry? / Can you say that a**gain**, please?",
+      "It’s **small**, / but the **peo**ple are **friend**ly.",
+      "Nice **talk**ing to you. / See you **la**ter!"
+    ],
+    "roleplay": [
+      { "level": "🟢 Easy", "en": "You are a Thai student. Say hello to Yuki, an exchange student from Japan. Say: Hi! I’m… / Welcome to RMUTI Surin! / Where are you from? / What’s your major?", "th": "คุณเป็นนักศึกษาไทย ทักทาย Yuki นักศึกษาแลกเปลี่ยนจากญี่ปุ่น (มีประโยคให้)" },
+      { "level": "🟡 Medium", "en": "Keywords: welcome / name? / from? / major? / hometown?", "th": "ใช้คำใบ้สร้างบทสนทนาเอง" },
+      { "level": "🔴 Challenge", "en": "Meet a new friend. Ask three questions. When you don’t understand a word, ask them to repeat or spell it.", "th": "พบเพื่อนใหม่ ถาม 3 คำถาม ถ้าไม่เข้าใจคำไหนให้ขอให้พูดซ้ำหรือสะกด" }
+    ],
+    "aiPrompt": "You are my English speaking partner. I am a Thai university student. My English is A1–A2.\nRole: you are a new exchange student at my university. I will say hello first.\nRules:\n- Use short, simple English (A1–A2).\n- Ask me only ONE question at a time, then wait for my answer.\n- Ask about my name, where I am from, my major, and my hometown.\n- If I write in Thai or say I don't understand, help me in simple English and give one short Thai hint.\n- After 6–8 turns, stop and give me friendly feedback: 2 things I did well and 2 corrections, with the correct sentence.\nDo not ask for my real full name, phone number, or any personal information."
+  },
+  "quiz": {
+    "enabled": false,
+    "note": "Quiz 1 is done in class on Google Forms. Your teacher will give you the link.",
+    "noteTh": "แบบทดสอบครั้งที่ 1 ทำในชั้นเรียนผ่าน Google Forms อาจารย์จะแจ้งลิงก์ในห้อง"
+  }
+}

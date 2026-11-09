@@ -1,0 +1,27 @@
+{
+  "_note": "status: open | done | soon | test | exam. Change 'soon' to 'open' to publish a week (its weekNN.json must exist).",
+  "phases": [
+    { "label": "PHASE 1 · Weeks 1–6", "weeks": [
+      { "week": 1, "title": "Welcome & Orientation", "titleTh": "ปฐมนิเทศรายวิชา", "status": "open", "parts": [] },
+      { "week": 2, "title": "Hey, Let’s Connect! Me & My People", "titleTh": "ทักทาย แนะนำตัว และคนสำคัญของฉัน", "status": "open", "parts": ["words", "listen", "practice", "speak"] },
+      { "week": 3, "title": "A Day in My Life", "titleTh": "หนึ่งวันของฉัน", "status": "soon" },
+      { "week": 4, "title": "Café Hopping & Food Delivery", "titleTh": "คาเฟ่และการสั่งอาหารผ่านแอป", "status": "soon" },
+      { "week": 5, "title": "Shop Smart: Online, Live & In-store", "titleTh": "ช้อปอย่างฉลาด", "status": "soon" },
+      { "week": 6, "title": "Meet Me There!", "titleTh": "นัดเจอกัน: ถามทางและแชร์ตำแหน่ง", "status": "soon" },
+      { "week": 7, "title": "Speaking Test 1 + Review", "titleTh": "สอบพูดครั้งที่ 1 และทบทวน", "status": "test" },
+      { "week": 8, "title": "Midterm Exam", "titleTh": "สอบกลางภาค", "status": "exam" }
+    ]},
+    { "label": "PHASE 2 · Weeks 9–11", "weeks": [
+      { "week": 9, "title": "On the Move", "titleTh": "การเดินทาง", "status": "soon" },
+      { "week": 10, "title": "Feeling Good", "titleTh": "สุขภาพดี", "status": "soon" },
+      { "week": 11, "title": "Let’s Hang Out!", "titleTh": "การนัดหมายและการชวน", "status": "soon" }
+    ]},
+    { "label": "PHASE 3 · Weeks 12–16", "weeks": [
+      { "week": 12, "title": "Festivals, Concerts & Events", "titleTh": "เทศกาล คอนเสิร์ต และงานอีเวนต์", "status": "soon" },
+      { "week": 13, "title": "Something’s Wrong!", "titleTh": "การแจ้งปัญหาและร้องเรียน", "status": "soon" },
+      { "week": 14, "title": "My Weekend: Series, Games & Trips", "titleTh": "วันหยุดของฉัน", "status": "soon" },
+      { "week": 15, "title": "Speaking Test 2 + Project Showcase", "titleTh": "สอบพูดครั้งที่ 2 และนำเสนอโครงงาน", "status": "test" },
+      { "week": 16, "title": "Final Exam", "titleTh": "สอบปลายภาค", "status": "exam" }
+    ]}
+  ]
+}

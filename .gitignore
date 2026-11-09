@@ -1,0 +1,13 @@
+# Never publish these (public repo)
+_private/
+*roster*
+*Roster*
+*score*
+*key*
+*Key*
+*scriptB*
+*ScriptB*
+*.csv
+*.xlsx
+*.gs
+.DS_Store

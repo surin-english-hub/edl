@@ -1,0 +1,45 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;600;700&family=IBM+Plex+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2314532D'/%3E%3Ctext x='16' y='21' font-family='Arial' font-size='11' font-weight='700' fill='white' text-anchor='middle'%3EEDL%3C/text%3E%3C/svg%3E">
+<title>Privacy · English in Daily Life</title></head><body>
+<a class="sr-only" href="#main">Skip to content</a>
+<div class="hubline"><div class="wrap"><a href="/">Surin English Hub</a><span>RMUTI Surin Campus</span></div></div>
+<header class="topbar"><div class="wrap">
+  <a class="brand" href="./"><span class="brand-mark">EDL</span><span class="brand-text"><b>English in Daily Life</b><span>ภาษาอังกฤษในชีวิตประจำวัน · 00-400-070-003</span></span></a>
+  <nav class="nav" aria-label="Main">
+    <a href="./" >Weeks</a>
+    <a class="hide-sm" href="help.html" >How to use · วิธีใช้</a>
+    <span id="user-slot"></span>
+  </nav>
+</div></header>
+<main id="main"><div class="wrap stack" style="max-width:780px">
+  <h1>Privacy notice <span class="th">· ประกาศความเป็นส่วนตัว</span></h1>
+  <section class="card stack">
+    <h2>Practice <span class="th">· การฝึกบนเว็บ</span></h2>
+    <p>Your name, student ID, section and practice progress are saved <b>on your own device only</b> (browser storage). They are not sent to the teacher or anyone else. Voice recordings stay on your device and are deleted when you close the page.</p>
+    <p class="muted">ชื่อ รหัสนักศึกษา กลุ่มเรียน และความคืบหน้าในการฝึก จะบันทึกไว้<b>ในเครื่องของคุณเท่านั้น</b> ไม่ส่งไปให้อาจารย์หรือผู้อื่น เสียงที่อัดไว้อยู่ในเครื่องและจะหายไปเมื่อปิดหน้าเว็บ</p>
+  </section>
+  <section class="card stack">
+    <h2>Scored quizzes <span class="th">· แบบทดสอบที่เก็บคะแนน</span></h2>
+    <p><b>What we collect:</b> name, student ID, section, your answers, score, and the time you start and submit.<br><b>Why:</b> to record your course score.<br><b>Who can see it:</b> your course teacher (the site administrator) only.<br><b>How long:</b> until final grades are submitted; then the raw data is deleted or archived.</p>
+    <p class="muted"><b>ข้อมูลที่เก็บ:</b> ชื่อ รหัสนักศึกษา กลุ่มเรียน คำตอบ คะแนน และเวลาเริ่มและส่ง<br><b>วัตถุประสงค์:</b> เพื่อบันทึกคะแนนในรายวิชา<br><b>ผู้ที่เห็นข้อมูล:</b> อาจารย์ผู้ดูแลระบบเท่านั้น<br><b>ระยะเวลา:</b> จนกว่าจะส่งเกรดปลายภาค แล้วจะลบหรือจัดเก็บข้อมูลดิบ</p>
+  </section>
+  <section class="card stack">
+    <h2>Clear your data <span class="th">· ล้างข้อมูลในเครื่อง</span></h2>
+    <p>Use this on a shared computer. · ใช้เมื่อใช้คอมพิวเตอร์ร่วมกับผู้อื่น</p>
+    <div><button type="button" class="btn" id="clear">Clear my data on this device · ล้างข้อมูลในเครื่องนี้</button></div>
+    <p class="small muted" id="cleared" role="status"></p>
+  </section>
+</div></main>
+<footer><div class="wrap">
+  <span>Surin English Hub · RMUTI Surin Campus · Designed and managed by ดร.ศุภรัตน์ วัลกานนท์</span>
+  <span><a href="privacy.html">Privacy · ความเป็นส่วนตัว</a> · For teaching and learning. Not an official university website.</span>
+</div></footer>
+<script src="assets/js/config.js"></script><script src="assets/js/app.js"></script><script>document.getElementById("clear").addEventListener("click",function(){try{localStorage.removeItem("edl.profile");localStorage.removeItem("edl.progress");}catch(e){}document.getElementById("cleared").textContent="Done. · ล้างข้อมูลแล้ว";EDL.renderUserChip();});</script>
+</body></html>
