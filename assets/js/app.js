@@ -54,7 +54,7 @@
     var name = el('input', { id: 'pf-name', autocomplete: 'name', value: p.name || '', required: true });
     var sid = el('input', { id: 'pf-id', inputmode: 'numeric', autocomplete: 'off', value: p.id || '', required: true });
     var sec = el('select', { id: 'pf-sec' }, sections.map(function (s) {
-      return el('option', { value: s, selected: p.section === s }, ['Section ' + s]);
+      return el('option', { value: s, selected: p.section === s }, [s]);
     }));
     var d = el('dialog', { 'aria-labelledby': 'pf-title' }, [
       el('form', { class: 'dlg', method: 'dialog' }, [
@@ -90,7 +90,7 @@
     slot.innerHTML = '';
     var icon = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>';
     var b = el('button', { type: 'button', class: 'chip-user', onclick: function () { profileDialog(); } });
-    b.innerHTML = icon + '<span>' + (p ? esc(p.name.split(' ')[0]) + ' · Sec ' + esc(p.section) : 'Sign in · ใส่ชื่อ') + '</span>';
+    b.innerHTML = icon + '<span>' + (p ? esc(p.name.split(' ')[0]) + ' · ' + esc(p.section) : 'Sign in · ใส่ชื่อ') + '</span>';
     slot.appendChild(b);
   }
 
