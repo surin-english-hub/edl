@@ -81,6 +81,8 @@
     try {
       if (!('speechSynthesis' in window)) return;
       speechSynthesis.cancel();
+      // "takeaway / to go" → "takeaway, to go": read a slash as a short pause, never as the word "slash"
+      text = String(text).replace(/\s*\/\s*/g, ', ');
       var u = new SpeechSynthesisUtterance(text); u.lang = 'en-US'; u.rate = 0.85;
       speechSynthesis.speak(u);
     } catch (e) { /* ignore */ }
@@ -273,7 +275,7 @@
       }
       face.addEventListener('click', function () { flipped = !flipped; show(); });
       var listen = el('button', { type: 'button', class: 'btn', onclick: function () {
-        var c = list[i]; if (c.audio) { var a = new Audio(c.audio); a.play().catch(function () { speak(c.word); }); } else speak(c.word); } });
+        var c = list[i]; if (c.audio) { var a = new Audio(c.audio); a.play().catch(function () { speak(c.say || c.word); }); } else speak(c.say || c.word); } });
       listen.innerHTML = icon('sound') + '<span>Listen</span>';
       var table = el('details', null, [el('summary', { class: 'small', style: 'cursor:pointer;min-height:44px;display:flex;align-items:center', text: 'See all words · ดูคำศัพท์ทั้งหมด' }),
         el('div', { style: 'overflow-x:auto' }, [el('table', { style: 'width:100%;border-collapse:collapse;font-size:15px' }, [
