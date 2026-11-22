@@ -4,8 +4,8 @@
     { "label": "PHASE 1 · Weeks 1–6", "weeks": [
       { "week": 1, "title": "Welcome & Orientation", "titleTh": "ปฐมนิเทศรายวิชา", "status": "open", "parts": [] },
       { "week": 2, "title": "Hey, Let’s Connect! Me & My People", "titleTh": "ทักทาย แนะนำตัว และคนสำคัญของฉัน", "status": "open", "parts": ["words", "listen", "practice", "speak"] },
-      { "week": 3, "title": "A Day in My Life", "titleTh": "หนึ่งวันของฉัน", "status": "soon" },
-      { "week": 4, "title": "Café Hopping & Food Delivery", "titleTh": "คาเฟ่และการสั่งอาหารผ่านแอป", "status": "soon" },
+      { "week": 3, "title": "A Day in My Life", "titleTh": "หนึ่งวันของฉัน", "status": "open", "parts": ["words", "listen", "practice", "speak"] },
+      { "week": 4, "title": "Café Hopping & Food Delivery", "titleTh": "คาเฟ่และการสั่งอาหารผ่านแอป", "status": "open", "parts": ["words", "listen", "practice", "speak"] },
       { "week": 5, "title": "Shop Smart: Online, Live & In-store", "titleTh": "ช้อปอย่างฉลาด", "status": "soon" },
       { "week": 6, "title": "Meet Me There!", "titleTh": "นัดเจอกัน: ถามทางและแชร์ตำแหน่ง", "status": "soon" },
       { "week": 7, "title": "Speaking Test 1 + Review", "titleTh": "สอบพูดครั้งที่ 1 และทบทวน", "status": "test" },

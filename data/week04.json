@@ -1,0 +1,212 @@
+{
+  "status": "open",
+  "title": "Café Hopping & Food Delivery",
+  "titleTh": "คาเฟ่และการสั่งอาหารผ่านแอป",
+  "phase": "Phase 1",
+  "_source": "Built from the approved Week 4 handout (22 Nov 2026): vocabulary, key expressions, Script A + Listen & Notice, grammar (would like + some/any), Hiro_T food-app review, writing frame, info gap, role-play. Extra practice items are web only. Script B (food-app order with a delivery rider) is NOT on the site: make-up quiz only. Do not reuse these items in Quiz 2 or the midterm.",
+  "cando": [
+    { "en": "I can order food and drinks politely in a café.", "th": "สั่งอาหารและเครื่องดื่มในคาเฟ่ได้อย่างสุภาพ" },
+    { "en": "I can ask for changes (less sugar, oat milk) and ask for the bill.", "th": "ขอปรับเมนูและขอเช็คบิลได้" },
+    { "en": "I can read and write a short food review.", "th": "อ่านและเขียนรีวิวอาหารสั้น ๆ ได้" }
+  ],
+  "start": {
+    "title": "Warm-up",
+    "titleTh": "อุ่นเครื่อง",
+    "images": [
+      { "src": "img/w04_cafe_menu.webp", "alt": "Green Cup café menu: iced latte 60 baht, hot Americano 50, Thai tea 45, coconut cake 40, Thai tea toast 35, oat milk plus 10.", "caption": "Green Cup café menu" },
+      { "src": "img/w04_food_app.webp", "alt": "A food app order screen: Noodle House, 4.6 stars. Pork noodle soup 60 baht, iced Thai tea 15 baht, delivery fee 10 baht. Note: not spicy, please. Arriving in 20 minutes.", "caption": "Today’s order on a food app" }
+    ],
+    "questions": [
+      { "en": "What’s your favourite café drink?", "th": "เครื่องดื่มในคาเฟ่ที่ชอบที่สุดคืออะไร" },
+      { "en": "Do you often order food on an app?", "th": "สั่งอาหารผ่านแอปบ่อยไหม" },
+      { "en": "What do you usually order?", "th": "ปกติสั่งอะไร" }
+    ]
+  },
+  "words": [
+    { "word": "menu", "th": "เมนู", "example": "Can I see the menu, please?" },
+    { "word": "order", "th": "สั่ง (อาหาร)", "example": "I order lunch on a food app." },
+    { "word": "drink", "th": "เครื่องดื่ม", "example": "What drink would you like?" },
+    { "word": "dessert", "th": "ของหวาน", "example": "I always have dessert after lunch." },
+    { "word": "iced", "th": "แบบเย็น (ใส่น้ำแข็ง)", "example": "I’d like an iced latte." },
+    { "word": "hot", "th": "แบบร้อน", "example": "Can I have a hot tea, please?" },
+    { "word": "sweet", "th": "หวาน", "example": "This Thai tea is too sweet." },
+    { "word": "spicy", "th": "เผ็ด", "example": "Is it spicy?" },
+    { "word": "takeaway / to go", "th": "ซื้อกลับบ้าน", "example": "Two coffees to go, please." },
+    { "word": "bill", "th": "บิล ใบเสร็จเก็บเงิน", "example": "Can I have the bill, please?" },
+    { "word": "delivery fee", "th": "ค่าส่ง", "example": "The delivery fee is 15 baht." },
+    { "word": "review", "th": "รีวิว", "example": "I read the reviews before I order." }
+  ],
+  "listen": {
+    "title": "Script A · At Green Cup",
+    "titleTh": "บทสนทนา Ploy, Mark และ Bee ที่คาเฟ่",
+    "setting": "Green Cup, a small café near RMUTI Surin, Saturday morning · คาเฟ่เล็ก ๆ ใกล้มหาวิทยาลัย เช้าวันเสาร์",
+    "audio": { "slow": "audio/w04_scriptA_slow.mp3", "normal": "audio/w04_scriptA_normal.mp3" },
+    "script": [
+      { "who": "BEE", "en": "Hi! Welcome to Green Cup. What would you like?", "th": "สวัสดีค่ะ ยินดีต้อนรับสู่กรีนคัพ รับอะไรดีคะ" },
+      { "who": "PLOY", "en": "I’d like an iced latte, please.", "th": "ขอลาเต้เย็นแก้วหนึ่งค่ะ" },
+      { "who": "BEE", "en": "Sure. Would you like any sugar?", "th": "ได้ค่ะ ใส่น้ำตาลไหมคะ" },
+      { "who": "PLOY", "en": "Just a little, please. Can I get it with oat milk?", "th": "นิดเดียวค่ะ ขอเปลี่ยนเป็นนมโอ๊ตได้ไหมคะ" },
+      { "who": "BEE", "en": "No problem. And for you?", "th": "ได้เลยค่ะ แล้วคุณล่ะคะ" },
+      { "who": "MARK", "en": "Can I have a hot Americano, please?", "th": "ขออเมริกาโน่ร้อนแก้วหนึ่งครับ" },
+      { "who": "BEE", "en": "Of course. Would you like anything to eat?", "th": "ได้ค่ะ รับอะไรทานด้วยไหมคะ" },
+      { "who": "MARK", "en": "Do you have any Thai desserts?", "th": "มีขนมไทยไหมครับ" },
+      { "who": "BEE", "en": "Yes, we have some coconut cake and some Thai tea toast.", "th": "มีค่ะ มีเค้กมะพร้าวกับขนมปังปิ้งชาไทย" },
+      { "who": "MARK", "en": "Great! I’d like some coconut cake, please.", "th": "เยี่ยมเลย ขอเค้กมะพร้าวครับ" },
+      { "who": "PLOY", "en": "Me too, please.", "th": "ของฉันด้วยค่ะ" },
+      { "who": "BEE", "en": "For here or to go?", "th": "ทานที่ร้านหรือกลับบ้านคะ" },
+      { "who": "PLOY", "en": "For here, please.", "th": "ทานที่ร้านค่ะ" },
+      { "who": "MARK", "en": "Wait, Ploy! Don’t eat yet.", "th": "เดี๋ยวก่อนพลอย ยังไม่ต้องกิน" },
+      { "who": "PLOY", "en": "Why? Oh, a photo for your vlog?", "th": "ทำไมล่ะ อ๋อ ถ่ายรูปลงวล็อกเหรอ" },
+      { "who": "MARK", "en": "Yes! One, two, three… OK, now we can eat.", "th": "ใช่! หนึ่ง สอง สาม… โอเค กินได้แล้ว" },
+      { "who": "PLOY", "en": "Mmm. This cake is really good.", "th": "อืม เค้กนี้อร่อยมาก" },
+      { "who": "MARK", "en": "Ploy, you usually have rice for breakfast, right?", "th": "พลอย ปกติเธอกินข้าวเป็นมื้อเช้าใช่ไหม" },
+      { "who": "PLOY", "en": "Yes, but on Saturdays, I always have cake!", "th": "ใช่ แต่วันเสาร์ฉันกินเค้กเสมอ!" },
+      { "who": "MARK", "en": "Excuse me. Check, please.", "th": "ขอโทษครับ เช็คบิลด้วยครับ" },
+      { "who": "BEE", "en": "Here you are. That’s two hundred baht.", "th": "นี่ค่ะ ทั้งหมดสองร้อยบาทค่ะ" },
+      { "who": "MARK", "en": "Can I pay by QR code?", "th": "จ่ายด้วยคิวอาร์โค้ดได้ไหมครับ" },
+      { "who": "BEE", "en": "Yes, of course. Thank you. Come again!", "th": "ได้แน่นอนค่ะ ขอบคุณค่ะ แล้วมาใหม่นะคะ" }
+    ],
+    "exercises": [
+      {
+        "title": "1 · The main idea",
+        "titleTh": "ใจความหลัก",
+        "type": "mc",
+        "items": [
+          { "q": "Where are Ploy and Mark?", "qTh": "Ploy กับ Mark อยู่ที่ไหน", "options": ["at home", "in a café", "at a market"], "answer": 1,
+            "fbOk": "ทั้งสองคนอยู่ที่คาเฟ่ Green Cup", "fbNo": "ฟังประโยคแรก “Welcome to Green Cup.” อีกครั้ง" }
+        ]
+      },
+      {
+        "title": "2 · True or false?",
+        "titleTh": "จริงหรือไม่จริง",
+        "type": "tf",
+        "items": [
+          { "q": "Ploy wants a hot latte.", "answer": false, "why": "Ploy สั่ง “an iced latte” (ลาเต้เย็น)" },
+          { "q": "Ploy wants her latte with oat milk.", "answer": true, "why": "“Can I get it with oat milk?”" },
+          { "q": "The café has no desserts.", "answer": false, "why": "ร้านมี “some coconut cake and some Thai tea toast”" },
+          { "q": "Mark takes a photo before they eat.", "answer": true, "why": "Mark พูดว่า “Wait, Ploy! Don’t eat yet.” เพราะจะถ่ายรูปลงวล็อก" },
+          { "q": "Mark pays by cash.", "answer": false, "why": "Mark ถามว่า “Can I pay by QR code?”" }
+        ]
+      },
+      {
+        "title": "3 · Complete the chunks",
+        "titleTh": "เติมกลุ่มคำให้ครบ",
+        "type": "gap",
+        "bank": ["like", "get", "any", "some", "go"],
+        "items": [
+          { "q": "I’d ___ an iced latte, please.", "answer": "like", "fbOk": "I’d like… = ขอ… (สุภาพ)" },
+          { "q": "Can I ___ it with oat milk?", "answer": "get", "fbOk": "Can I get it with…? = ขอแบบใส่… ได้ไหม" },
+          { "q": "Do you have ___ Thai desserts?", "answer": "any", "fbOk": "ประโยคคำถามใช้ any" },
+          { "q": "We have ___ coconut cake.", "answer": "some", "fbOk": "ประโยคบอกเล่าใช้ some" },
+          { "q": "For here or to ___?", "answer": "go", "fbOk": "to go = ซื้อกลับบ้าน" }
+        ]
+      },
+      {
+        "title": "4 · Who says it?",
+        "titleTh": "ใครพูด",
+        "type": "mc",
+        "items": [
+          { "q": "What would you like?", "options": ["Bee", "Ploy", "Mark"], "answer": 0, "inline": true, "why": "Bee เป็นพนักงานร้าน เป็นคนถามลูกค้า" },
+          { "q": "Can I get it with oat milk?", "options": ["Bee", "Ploy", "Mark"], "answer": 1, "inline": true, "why": "Ploy ขอเปลี่ยนเป็นนมโอ๊ต" },
+          { "q": "Do you have any Thai desserts?", "options": ["Bee", "Ploy", "Mark"], "answer": 2, "inline": true, "why": "Mark ถามหาขนมไทย" },
+          { "q": "On Saturdays, I always have cake!", "options": ["Bee", "Ploy", "Mark"], "answer": 1, "inline": true, "why": "Ploy ปกติกินข้าวตอนเช้า แต่วันเสาร์กินเค้ก" }
+        ]
+      }
+    ]
+  },
+  "practice": [
+    {
+      "title": "Grammar A · some or any?",
+      "titleTh": "เลือก some หรือ any",
+      "instructions": "some → ประโยคบอกเล่า · any → ประโยคปฏิเสธและคำถาม · ⭐ ถ้า “เสนอ” หรือ “ขอ” ของ ใช้ some (Would you like some tea?)",
+      "type": "gap",
+      "bank": ["some", "any"],
+      "items": [
+        { "q": "We have ___ cookies.", "answer": "some", "fbOk": "ประโยคบอกเล่าใช้ some", "fbNo": "นี่คือประโยคบอกเล่า จึงใช้ some" },
+        { "q": "Do you have ___ oat milk?", "answer": "any", "fbOk": "ประโยคคำถามใช้ any", "fbNo": "นี่คือประโยคคำถาม จึงใช้ any" },
+        { "q": "Sorry, we don’t have ___ cake today.", "answer": "any", "fbOk": "ประโยคปฏิเสธ (don’t) ใช้ any", "fbNo": "มี don’t = ประโยคปฏิเสธ จึงใช้ any" },
+        { "q": "Would you like ___ water?", "answer": "some", "fbOk": "การเสนอ (Would you like…?) ใช้ some", "fbNo": "Would you like…? เป็นการเสนอ จึงใช้ some" },
+        { "q": "I’d like ___ fries, please.", "answer": "some", "fbOk": "การขอ (I’d like…) ใช้ some", "fbNo": "I’d like… เป็นการขอ จึงใช้ some" },
+        { "q": "There isn’t ___ sugar in my coffee.", "answer": "any", "fbOk": "ประโยคปฏิเสธ (isn’t) ใช้ any", "fbNo": "มี isn’t = ประโยคปฏิเสธ จึงใช้ any" }
+      ]
+    },
+    {
+      "title": "Grammar B · Polite or not?",
+      "titleTh": "ประโยคไหนสุภาพกว่า",
+      "type": "mc",
+      "items": [
+        { "q": "You want a Thai tea. What do you say?", "qTh": "อยากได้ชาไทย ควรพูดว่าอะไร", "options": ["I want Thai tea.", "I’d like a Thai tea, please.", "Give me Thai tea."], "answer": 1,
+          "fbOk": "ถูกต้อง I’d like…, please. สุภาพที่สุด", "fbNo": "I want / Give me ฟังห้วนเกินไปในภาษาอังกฤษ ใช้ I’d like…, please." },
+        { "q": "You want the menu. What do you say?", "qTh": "อยากดูเมนู ควรพูดว่าอะไร", "options": ["Can I have the menu, please?", "Menu!", "Give me the menu."], "answer": 0,
+          "fbOk": "ถูกต้อง Can I have…, please? เป็นการขอที่สุภาพ", "fbNo": "ใช้ Can I have…, please? จะสุภาพกว่า" },
+        { "q": "You want to pay. What do you say?", "qTh": "อยากจ่ายเงิน ควรพูดว่าอะไร", "options": ["Give me the bill.", "Bill now.", "Can I have the bill, please?"], "answer": 2,
+          "fbOk": "ถูกต้อง หรือพูดว่า Check, please. ก็ได้", "fbNo": "ใช้ Can I have the bill, please? หรือ Check, please." },
+        { "q": "“I like an iced latte.” What does it mean?", "qTh": "ประโยคนี้หมายความว่าอะไร", "options": ["I want to order an iced latte now.", "Iced lattes are my favourite drink."], "answer": 1,
+          "fbOk": "ถูกต้อง I like = ฉันชอบ ถ้าจะสั่งต้องพูด I’d like", "fbNo": "I like = ฉันชอบ (ทั่วไป) ส่วน I’d like = ฉันขอสั่ง" }
+      ]
+    },
+    {
+      "title": "Build the sentence",
+      "titleTh": "เรียงคำเป็นประโยค",
+      "type": "order",
+      "items": [
+        { "answer": "I’d like an iced Americano.", "words": ["like", "an", "I’d", "Americano.", "iced"], "qTh": "ขออเมริกาโน่เย็นแก้วหนึ่ง" },
+        { "answer": "Can I get it with less sugar?", "words": ["with", "Can", "less", "it", "I", "sugar?", "get"], "qTh": "ขอหวานน้อยได้ไหม" },
+        { "answer": "Do you have any desserts?", "words": ["any", "you", "desserts?", "Do", "have"], "qTh": "มีของหวานไหม" },
+        { "answer": "Would you like anything else?", "words": ["else?", "you", "anything", "Would", "like"], "qTh": "รับอะไรเพิ่มไหม" }
+      ]
+    },
+    {
+      "title": "What do you say?",
+      "titleTh": "จะพูดว่าอะไร",
+      "type": "mc",
+      "items": [
+        { "q": "The staff asks: “For here or to go?” You want to take it home.", "qTh": "อยากซื้อกลับบ้าน", "options": ["For here, please.", "To go, please.", "Here you are."], "answer": 1,
+          "fbOk": "To go = ซื้อกลับบ้าน", "fbNo": "For here = ทานที่ร้าน · To go = ซื้อกลับบ้าน" },
+        { "q": "The staff asks: “Would you like anything else?” You don’t want more.", "qTh": "ไม่ต้องการอะไรเพิ่ม", "options": ["Yes, please.", "Me too.", "No, thank you. That’s all."], "answer": 2,
+          "fbOk": "That’s all. = แค่นี้ครับ/ค่ะ", "fbNo": "ตอบปฏิเสธอย่างสุภาพ: No, thank you. That’s all." },
+        { "q": "You don’t have cash. What do you ask?", "qTh": "ไม่มีเงินสด จะถามว่าอะไร", "options": ["Can I pay by QR code?", "How are you?", "Is it spicy?"], "answer": 0,
+          "fbOk": "Can I pay by…? = จ่ายด้วย… ได้ไหม", "fbNo": "ถามวิธีจ่ายเงิน: Can I pay by QR code?" },
+        { "q": "A customer asks: “Do you have any brownies?” They are sold out.", "qTh": "บราวนี่หมดแล้ว พนักงานควรตอบว่า", "options": ["Yes, we have some.", "Sorry, we don’t have any today.", "Check, please."], "answer": 1,
+          "fbOk": "ประโยคปฏิเสธใช้ any", "fbNo": "ของหมด ตอบว่า Sorry, we don’t have any today." }
+      ]
+    },
+    {
+      "title": "Reading · A food app review",
+      "titleTh": "อ่านรีวิวในแอปสั่งอาหาร",
+      "reading": "★★★★☆ **Noodle House, Surin** · review by Hiro_T\nI often order lunch from Noodle House on a food app. The delivery is fast, about 20 minutes. The pork noodle soup is hot and delicious, but it is very spicy! Tip: write “not spicy, please” in the note. The iced Thai tea is too sweet for me, so I always ask for less sugar. The price is good: 85 baht with the delivery fee. 4 stars!\n*delicious = อร่อย · note = ข้อความถึงร้าน · tip = คำแนะนำ · price = ราคา*",
+      "type": "mc",
+      "items": [
+        { "q": "How does Hiro order lunch?", "options": ["by phone", "on a food app", "at the shop"], "answer": 1, "why": "“I often order lunch… on a food app.”" },
+        { "q": "How long is the delivery?", "options": ["about 10 minutes", "about 20 minutes", "about one hour"], "answer": 1, "why": "“The delivery is fast, about 20 minutes.”" },
+        { "q": "What is the problem with the soup?", "options": ["It is very spicy.", "It is cold.", "It is too sweet."], "answer": 0, "why": "“…but it is very spicy!” (ที่หวานเกินไปคือชาไทย)" },
+        { "q": "Hiro always asks for less sugar.", "options": ["True", "False"], "answer": 0, "inline": true, "why": "“…so I always ask for less sugar.”" },
+        { "q": "How much is it with the delivery fee?", "options": ["15 baht", "60 baht", "85 baht"], "answer": 2, "why": "“The price is good: 85 baht with the delivery fee.”" }
+      ]
+    }
+  ],
+  "speak": {
+    "audio": { "slow": "audio/w04_scriptA_slow.mp3", "normal": "audio/w04_scriptA_normal.mp3" },
+    "shadowing": [
+      "Hi! / **Wel**come to Green **Cup**. / What would you **like**?",
+      "I’d like an **iced lat**te, / **please**.",
+      "Can I **get** it / with **oat** milk?",
+      "Can I **have** a hot A**mer**icano, / please?",
+      "Do you have **any** Thai **des**serts?",
+      "For **here** / or to **go**?",
+      "Ex**cuse** me. / **Check**, please.",
+      "Can I **pay** / by **QR** code?"
+    ],
+    "roleplay": [
+      { "level": "🟢 Easy", "en": "You are a customer at a café. Say: Hi. I’d like a ______, please. / Can I get it with ______? / Do you have any ______? / For here, please. / Can I pay by QR code?", "th": "คุณเป็นลูกค้าในคาเฟ่ สั่งเครื่องดื่ม 1 อย่างและของหวาน 1 อย่าง (มีประโยคให้)" },
+      { "level": "🟡 Medium", "en": "Customer keywords: iced / less sugar / dessert / to go / bill. Staff asks: What…? / Would you like…? / For here…?", "th": "ใช้คำใบ้สร้างบทสนทนาเอง สลับกันเป็นลูกค้าและพนักงาน" },
+      { "level": "🔴 Challenge", "en": "You have only 100 baht. You want a drink and a dessert. Problem: the café has no oat milk today. Order, solve the problem, and pay.", "th": "มีเงิน 100 บาท อยากได้เครื่องดื่มและของหวาน แต่ร้านไม่มีนมโอ๊ต สั่ง แก้ปัญหา และจ่ายเงิน" }
+    ],
+    "aiPrompt": "You are my English speaking partner. I am a Thai university student. My English is A1–A2.\nRole: you are a friendly staff member at a small café in Thailand. I am the customer. You start: “Hi! What would you like?”\nMenu: iced latte 60 baht, hot Americano 50, Thai tea 45, coconut cake 40, Thai tea toast 35, oat milk +10. Today there are no brownies.\nRules:\n- Use short, simple English (A1–A2).\n- Say only ONE thing or ask only ONE question at a time, then wait for my answer.\n- Ask about: my drink, hot or iced, sugar, something to eat, for here or to go, and how I want to pay.\n- If I write in Thai or say I don't understand, help me in simple English and give one short Thai hint.\n- After 6–8 turns, tell me the total price, then stop and give me friendly feedback: 2 things I did well and 2 corrections, with the correct sentence. Check that I used polite language like “I’d like…” and “Can I have…?”\nDo not ask for my real name, phone number, or any personal information."
+  },
+  "quiz": {
+    "enabled": false,
+    "note": "Quiz 2 is in class this week on Google Forms. Your teacher will give you the link.",
+    "noteTh": "แบบทดสอบครั้งที่ 2 ทำในชั้นเรียนสัปดาห์นี้ผ่าน Google Forms อาจารย์จะให้ลิงก์ในห้องเรียน"
+  }
+}

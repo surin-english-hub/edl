@@ -1,0 +1,730 @@
+{
+  "status": "open",
+  "title": "A Day in My Life",
+  "titleTh": "หนึ่งวันของฉัน",
+  "phase": "Phase 1",
+  "_source": "Built from the approved Week 3 handout and L&S pack (15–16 Nov 2026): vocabulary, Script A + bilingual transcript, shadowing (8), grammar (present simple + adverbs of frequency), @mai.in.surin reading, role-play, AI partner prompt. Listening and extra practice items are web only and avoid the Quiz 1 items. Script B (Nut & Emma) is NOT on the site: make-up quiz only.",
+  "cando": [
+    {
+      "en": "I can talk about my daily routine.",
+      "th": "เล่ากิจวัตรประจำวันของตัวเองได้"
+    },
+    {
+      "en": "I can ask and answer: What time do you…? How often do you…?",
+      "th": "ถามและตอบเรื่องเวลาและความถี่ได้"
+    },
+    {
+      "en": "I can write a short “day in my life” post.",
+      "th": "เขียนโพสต์สั้น ๆ เรื่องหนึ่งวันของฉันได้"
+    }
+  ],
+  "start": {
+    "title": "Warm-up",
+    "titleTh": "อุ่นเครื่อง",
+    "images": [
+      {
+        "src": "img/w03_ploy_monday.webp",
+        "alt": "Ploy’s Monday planner: 6:00 get up, 9:00 go to class, 12:00 have lunch, 4 p.m. work part-time, 8 p.m. do homework, 11 p.m. go to bed.",
+        "caption": "Ploy’s Monday"
+      },
+      {
+        "src": "img/w03_screen_time.webp",
+        "alt": "A phone screen time page: daily average 4 hours 10 minutes. Social 1 h 50 min, Video 1 h 20 min, Games 30 min, Study 30 min.",
+        "caption": "Screen time on a phone"
+      }
+    ],
+    "questions": [
+      {
+        "en": "What time do you usually get up?",
+        "th": "ปกติตื่นนอนกี่โมง"
+      },
+      {
+        "en": "What do you do after class?",
+        "th": "หลังเลิกเรียนทำอะไร"
+      },
+      {
+        "en": "What’s your screen time? Check your phone!",
+        "th": "screen time ของคุณเท่าไร ลองเช็กในมือถือดู"
+      }
+    ]
+  },
+  "words": [
+    {
+      "word": "get up",
+      "th": "ตื่นนอน",
+      "example": "I get up at six."
+    },
+    {
+      "word": "take a shower",
+      "th": "อาบน้ำ",
+      "example": "I take a shower in the morning."
+    },
+    {
+      "word": "have breakfast",
+      "th": "กินอาหารเช้า",
+      "example": "I have breakfast at seven."
+    },
+    {
+      "word": "go to class",
+      "th": "ไปเรียน",
+      "example": "We go to class at nine."
+    },
+    {
+      "word": "have lunch",
+      "th": "กินอาหารกลางวัน",
+      "example": "She has lunch with her friends."
+    },
+    {
+      "word": "do homework",
+      "th": "ทำการบ้าน",
+      "example": "I do my homework at night."
+    },
+    {
+      "word": "work part-time",
+      "th": "ทำงานพาร์ทไทม์",
+      "example": "Ploy works part-time at a café."
+    },
+    {
+      "word": "exercise",
+      "th": "ออกกำลังกาย",
+      "example": "I exercise three times a week."
+    },
+    {
+      "word": "watch a series",
+      "th": "ดูซีรีส์",
+      "example": "I watch a series before bed."
+    },
+    {
+      "word": "play games",
+      "th": "เล่นเกม",
+      "example": "My brother plays games every day."
+    },
+    {
+      "word": "chat with friends",
+      "th": "แชทกับเพื่อน",
+      "example": "I chat with friends on my phone."
+    },
+    {
+      "word": "go to bed",
+      "th": "เข้านอน",
+      "example": "I go to bed at eleven."
+    }
+  ],
+  "listen": {
+    "title": "Script A · Mark’s vlog",
+    "titleTh": "บทสนทนา Ploy และ Mark",
+    "setting": "A bench on campus at RMUTI Surin, 8:00 a.m. Mark is filming a “day in my life” vlog · ม้านั่งในมหาวิทยาลัย 8 โมงเช้า Mark กำลังถ่ายวล็อก",
+    "audio": {
+      "slow": "audio/w03_scriptA_slow.mp3",
+      "normal": "audio/w03_scriptA_normal.mp3"
+    },
+    "script": [
+      {
+        "who": "MARK",
+        "en": "Good morning, Ploy! Can I ask you some questions for my vlog?",
+        "th": "สวัสดีตอนเช้า พลอย! ขอถามคำถามลงวล็อกของผมหน่อยได้ไหม"
+      },
+      {
+        "who": "PLOY",
+        "en": "Sure! What’s it about?",
+        "th": "ได้สิ! เกี่ยวกับอะไรเหรอ"
+      },
+      {
+        "who": "MARK",
+        "en": "It’s “A Day in My Life.” What time do you get up?",
+        "th": "เรื่อง “หนึ่งวันของฉัน” คุณตื่นนอนกี่โมง"
+      },
+      {
+        "who": "PLOY",
+        "en": "I usually get up at six. Then I take a shower and have breakfast.",
+        "th": "ปกติฉันตื่นหกโมง แล้วก็อาบน้ำและกินอาหารเช้า"
+      },
+      {
+        "who": "MARK",
+        "en": "Six? Wow! I never get up before seven.",
+        "th": "หกโมงเหรอ ว้าว! ผมไม่เคยตื่นก่อนเจ็ดโมงเลย"
+      },
+      {
+        "who": "PLOY",
+        "en": "You’re like my brother, Tum. He never gets up before nine!",
+        "th": "เหมือนน้องชายฉันเลย ชื่อตั้ม เขาไม่เคยตื่นก่อนเก้าโมงเลย!"
+      },
+      {
+        "who": "MARK",
+        "en": "Ha ha! Do you always have breakfast?",
+        "th": "ฮ่า ๆ คุณกินอาหารเช้าทุกวันเลยไหม"
+      },
+      {
+        "who": "PLOY",
+        "en": "Yes, I always have breakfast. Usually rice and eggs.",
+        "th": "ใช่ ฉันกินอาหารเช้าเสมอ ปกติเป็นข้าวกับไข่"
+      },
+      {
+        "who": "MARK",
+        "en": "Not me. I often just have coffee.",
+        "th": "ผมไม่ใช่แบบนั้น ผมมักจะดื่มแค่กาแฟ"
+      },
+      {
+        "who": "MARK",
+        "en": "What do you do after class?",
+        "th": "หลังเลิกเรียนคุณทำอะไร"
+      },
+      {
+        "who": "PLOY",
+        "en": "I work part-time at a café on Mondays and Wednesdays.",
+        "th": "ฉันทำงานพาร์ทไทม์ที่คาเฟ่ทุกวันจันทร์กับวันพุธ"
+      },
+      {
+        "who": "MARK",
+        "en": "Cool! And in the evening?",
+        "th": "เจ๋ง! แล้วตอนเย็นล่ะ"
+      },
+      {
+        "who": "PLOY",
+        "en": "I do my homework. Then I watch a series or chat with friends.",
+        "th": "ฉันทำการบ้าน แล้วก็ดูซีรีส์หรือแชทกับเพื่อน"
+      },
+      {
+        "who": "MARK",
+        "en": "What time do you go to bed?",
+        "th": "คุณเข้านอนกี่โมง"
+      },
+      {
+        "who": "PLOY",
+        "en": "Usually at eleven. But on Fridays, I go to bed at one!",
+        "th": "ปกติห้าทุ่ม แต่วันศุกร์ฉันเข้านอนตีหนึ่ง!"
+      },
+      {
+        "who": "MARK",
+        "en": "Me too! On Fridays, I play games with my friends in Cebu.",
+        "th": "ผมก็เหมือนกัน! วันศุกร์ผมเล่นเกมกับเพื่อน ๆ ที่เซบู"
+      },
+      {
+        "who": "PLOY",
+        "en": "What about your screen time?",
+        "th": "แล้ว screen time ของคุณล่ะ"
+      },
+      {
+        "who": "MARK",
+        "en": "Let me check… Oh no! Six hours a day!",
+        "th": "ขอดูก่อนนะ… โอ้ไม่! วันละหกชั่วโมง!"
+      },
+      {
+        "who": "PLOY",
+        "en": "Six? That’s a lot! I’m on my phone about four hours a day.",
+        "th": "หกชั่วโมงเหรอ เยอะมาก! ฉันใช้มือถือประมาณวันละสี่ชั่วโมง"
+      },
+      {
+        "who": "MARK",
+        "en": "OK, thank you, Ploy! Say hi to my vlog!",
+        "th": "โอเค ขอบคุณนะพลอย! ทักทายคนดูวล็อกหน่อย!"
+      },
+      {
+        "who": "PLOY",
+        "en": "Hi, everyone!",
+        "th": "สวัสดีทุกคน!"
+      }
+    ],
+    "exercises": [
+      {
+        "title": "1 · The main idea",
+        "titleTh": "ใจความหลัก",
+        "type": "mc",
+        "items": [
+          {
+            "q": "What are Ploy and Mark talking about?",
+            "qTh": "Ploy กับ Mark คุยกันเรื่องอะไร",
+            "options": [
+              "their families",
+              "their daily routines",
+              "their favourite food"
+            ],
+            "answer": 1,
+            "fbOk": "ถูกต้อง Mark ถาม Ploy เรื่อง “A Day in My Life” (กิจวัตรประจำวัน)",
+            "fbNo": "ฟังประโยค “It’s ‘A Day in My Life.’” อีกครั้ง"
+          }
+        ]
+      },
+      {
+        "title": "2 · True or false?",
+        "titleTh": "จริงหรือไม่จริง",
+        "type": "tf",
+        "items": [
+          {
+            "q": "Ploy usually gets up at six.",
+            "answer": true,
+            "why": "Ploy พูดว่า “I usually get up at six.”"
+          },
+          {
+            "q": "Mark always gets up before seven.",
+            "answer": false,
+            "why": "Mark พูดว่า “I never get up before seven.”"
+          },
+          {
+            "q": "Tum is Ploy’s brother.",
+            "answer": true,
+            "why": "“You’re like my brother, Tum.”"
+          },
+          {
+            "q": "Ploy works part-time every day.",
+            "answer": false,
+            "why": "Ploy ทำงานแค่ “on Mondays and Wednesdays”"
+          },
+          {
+            "q": "Mark’s screen time is more than Ploy’s.",
+            "answer": true,
+            "why": "Mark วันละ 6 ชั่วโมง ส่วน Ploy ประมาณ 4 ชั่วโมง"
+          }
+        ]
+      },
+      {
+        "title": "3 · Complete the chunks",
+        "titleTh": "เติมกลุ่มคำให้ครบ",
+        "type": "gap",
+        "bank": [
+          "usually",
+          "never",
+          "always",
+          "time",
+          "after"
+        ],
+        "items": [
+          {
+            "q": "What ___ do you get up?",
+            "answer": "time",
+            "fbOk": "What time do you…? = คุณ… กี่โมง"
+          },
+          {
+            "q": "I ___ get up at six.",
+            "answer": "usually",
+            "fbOk": "usually = ปกติ, โดยทั่วไป"
+          },
+          {
+            "q": "I ___ get up before seven.",
+            "answer": "never",
+            "fbOk": "never = ไม่เคย"
+          },
+          {
+            "q": "Do you ___ have breakfast?",
+            "answer": "always",
+            "fbOk": "always = เสมอ, ทุกครั้ง"
+          },
+          {
+            "q": "What do you do ___ class?",
+            "answer": "after",
+            "fbOk": "after class = หลังเลิกเรียน"
+          }
+        ]
+      },
+      {
+        "title": "4 · Who says it?",
+        "titleTh": "ใครพูด",
+        "type": "mc",
+        "items": [
+          {
+            "q": "I never get up before seven.",
+            "options": [
+              "Ploy",
+              "Mark"
+            ],
+            "answer": 1,
+            "inline": true,
+            "why": "Mark ตื่นสาย"
+          },
+          {
+            "q": "I work part-time at a café.",
+            "options": [
+              "Ploy",
+              "Mark"
+            ],
+            "answer": 0,
+            "inline": true,
+            "why": "Ploy ทำงานพาร์ทไทม์ที่คาเฟ่"
+          },
+          {
+            "q": "I often just have coffee.",
+            "options": [
+              "Ploy",
+              "Mark"
+            ],
+            "answer": 1,
+            "inline": true,
+            "why": "Mark มักจะดื่มแค่กาแฟตอนเช้า"
+          },
+          {
+            "q": "That’s a lot!",
+            "options": [
+              "Ploy",
+              "Mark"
+            ],
+            "answer": 0,
+            "inline": true,
+            "why": "Ploy ตกใจที่ Mark ใช้มือถือวันละ 6 ชั่วโมง"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": [
+    {
+      "title": "Grammar A · Add -s or not?",
+      "titleTh": "เลือกรูปกริยาที่ถูกต้อง",
+      "instructions": "ประธานเป็น He / She / It หรือชื่อคนคนเดียว → กริยาเติม -s / -es (get → gets, watch → watches, go → goes, have → has) · I / You / We / They → ไม่เติม",
+      "type": "mc",
+      "items": [
+        {
+          "q": "Ploy ___ up at six every day.",
+          "options": [
+            "get",
+            "gets"
+          ],
+          "answer": 1,
+          "inline": true,
+          "fbOk": "Ploy = she → gets",
+          "fbNo": "Ploy เป็นบุคคลที่ 3 เอกพจน์ ต้องเติม -s: gets"
+        },
+        {
+          "q": "My friends ___ games at night.",
+          "options": [
+            "play",
+            "plays"
+          ],
+          "answer": 0,
+          "inline": true,
+          "fbOk": "My friends = they → play",
+          "fbNo": "friends เป็นพหูพจน์ (they) ไม่ต้องเติม -s"
+        },
+        {
+          "q": "Mark ___ a series every evening.",
+          "options": [
+            "watchs",
+            "watches",
+            "watch"
+          ],
+          "answer": 1,
+          "inline": true,
+          "fbOk": "คำที่ลงท้ายด้วย -ch เติม -es: watches",
+          "fbNo": "Mark = he → watches (ลงท้าย -ch เติม -es)"
+        },
+        {
+          "q": "She ___ lunch at twelve.",
+          "options": [
+            "have",
+            "has",
+            "haves"
+          ],
+          "answer": 1,
+          "inline": true,
+          "fbOk": "have → has กับ he/she/it",
+          "fbNo": "have เป็นกริยาพิเศษ: she has"
+        },
+        {
+          "q": "We ___ to class at nine.",
+          "options": [
+            "go",
+            "goes"
+          ],
+          "answer": 0,
+          "inline": true,
+          "fbOk": "We → go (ไม่เติม)",
+          "fbNo": "We ไม่ต้องเติม -es"
+        },
+        {
+          "q": "My brother ___ to bed at midnight.",
+          "options": [
+            "go",
+            "gos",
+            "goes"
+          ],
+          "answer": 2,
+          "inline": true,
+          "fbOk": "go → goes",
+          "fbNo": "go กับ he/she ใช้ goes"
+        }
+      ]
+    },
+    {
+      "title": "Grammar B · Do or Does?",
+      "titleTh": "เลือก Do หรือ Does",
+      "instructions": "I / you / we / they → Do · he / she / it → Does · หลัง Does กริยาไม่เติม -s (Does she work…?)",
+      "type": "gap",
+      "bank": [
+        "Do",
+        "Does",
+        "do",
+        "does"
+      ],
+      "items": [
+        {
+          "q": "___ you always have breakfast?",
+          "answer": "Do",
+          "fbOk": "you → Do",
+          "fbNo": "ประธานคือ you ใช้ Do"
+        },
+        {
+          "q": "What time ___ Tum go to bed?",
+          "answer": "does",
+          "fbOk": "Tum = he → does",
+          "fbNo": "Tum เป็นบุคคลที่ 3 เอกพจน์ ใช้ does"
+        },
+        {
+          "q": "___ Mark play games on Fridays?",
+          "answer": "Does",
+          "fbOk": "Mark = he → Does",
+          "fbNo": "Mark = he ใช้ Does"
+        },
+        {
+          "q": "What ___ your friends do after class?",
+          "answer": "do",
+          "fbOk": "your friends = they → do",
+          "fbNo": "friends เป็นพหูพจน์ ใช้ do"
+        }
+      ]
+    },
+    {
+      "title": "Build the sentence",
+      "titleTh": "เรียงคำเป็นประโยค",
+      "instructions": "คำบอกความถี่ (always, usually, often, sometimes, never) วางหน้ากริยาแท้ แต่วางหลัง is / am / are",
+      "type": "order",
+      "items": [
+        {
+          "answer": "I usually get up at seven.",
+          "words": [
+            "get",
+            "up",
+            "I",
+            "at",
+            "seven.",
+            "usually"
+          ],
+          "qTh": "ปกติฉันตื่นเจ็ดโมง"
+        },
+        {
+          "answer": "She is never late.",
+          "words": [
+            "late.",
+            "is",
+            "She",
+            "never"
+          ],
+          "qTh": "เธอไม่เคยมาสาย"
+        },
+        {
+          "answer": "He often plays games at night.",
+          "words": [
+            "games",
+            "He",
+            "at",
+            "night.",
+            "plays",
+            "often"
+          ],
+          "qTh": "เขามักเล่นเกมตอนกลางคืน"
+        },
+        {
+          "answer": "How often do you exercise?",
+          "words": [
+            "you",
+            "often",
+            "exercise?",
+            "How",
+            "do"
+          ],
+          "qTh": "คุณออกกำลังกายบ่อยแค่ไหน"
+        }
+      ]
+    },
+    {
+      "title": "Find the correct sentence",
+      "titleTh": "ประโยคไหนถูกต้อง",
+      "type": "mc",
+      "items": [
+        {
+          "q": "Which sentence is correct?",
+          "qTh": "เลือกประโยคที่ถูก",
+          "options": [
+            "I am always get up at six.",
+            "I always get up at six.",
+            "I get up always at six."
+          ],
+          "answer": 1,
+          "fbOk": "ถูกต้อง คำบอกความถี่อยู่หน้ากริยา และไม่ต้องใส่ am",
+          "fbNo": "ไม่ต้องใส่ am และ always ต้องอยู่หน้า get up"
+        },
+        {
+          "q": "Which sentence is correct?",
+          "qTh": "เลือกประโยคที่ถูก",
+          "options": [
+            "Does she works on Mondays?",
+            "Do she work on Mondays?",
+            "Does she work on Mondays?"
+          ],
+          "answer": 2,
+          "fbOk": "ถูกต้อง หลัง Does กริยาไม่เติม -s",
+          "fbNo": "she → Does และหลัง Does ใช้ work (ไม่เติม -s)"
+        },
+        {
+          "q": "Which sentence is correct?",
+          "qTh": "เลือกประโยคที่ถูก",
+          "options": [
+            "He don’t exercise.",
+            "He doesn’t exercise.",
+            "He doesn’t exercises."
+          ],
+          "answer": 1,
+          "fbOk": "ถูกต้อง he → doesn’t + กริยาไม่เติม -s",
+          "fbNo": "he ใช้ doesn’t และกริยาหลัง doesn’t ไม่เติม -s"
+        }
+      ]
+    },
+    {
+      "title": "Me too or Me neither?",
+      "titleTh": "ตอบให้ถูกแบบ",
+      "instructions": "ประโยคบอกเล่า → Me too. · ประโยคปฏิเสธ (don’t / never) → Me neither.",
+      "type": "mc",
+      "items": [
+        {
+          "q": "A: I always have breakfast.  B: ___",
+          "options": [
+            "Me too.",
+            "Me neither."
+          ],
+          "answer": 0,
+          "inline": true,
+          "fbOk": "ประโยคบอกเล่า → Me too.",
+          "fbNo": "ประโยคบอกเล่า ใช้ Me too."
+        },
+        {
+          "q": "A: I don’t like Mondays.  B: ___",
+          "options": [
+            "Me too.",
+            "Me neither."
+          ],
+          "answer": 1,
+          "inline": true,
+          "fbOk": "ประโยคปฏิเสธ → Me neither.",
+          "fbNo": "มี don’t = ปฏิเสธ ใช้ Me neither."
+        },
+        {
+          "q": "A: I never exercise.  B: ___",
+          "options": [
+            "Me too.",
+            "Me neither."
+          ],
+          "answer": 1,
+          "inline": true,
+          "fbOk": "never มีความหมายปฏิเสธ → Me neither.",
+          "fbNo": "never = ปฏิเสธ ใช้ Me neither."
+        },
+        {
+          "q": "A: I play games on Fridays.  B: ___",
+          "options": [
+            "Me too.",
+            "Me neither."
+          ],
+          "answer": 0,
+          "inline": true,
+          "fbOk": "ประโยคบอกเล่า → Me too.",
+          "fbNo": "ประโยคบอกเล่า ใช้ Me too."
+        }
+      ]
+    },
+    {
+      "title": "Reading · A social media post",
+      "titleTh": "อ่านโพสต์โซเชียลมีเดีย",
+      "reading": "**@mai.in.surin** · A Day in My Life 📚☕\nHi, I’m Mai. I’m from Hanoi, Vietnam. I study Thai at a university in Surin. I always get up at 6:30. I have breakfast at a small shop near my dorm. My classes start at nine. After class, I usually go to the library with my friend, Fon. She helps me with my Thai homework! In the evening, I sometimes go to the night market. I never go to bed before midnight. My screen time? Seven hours a day. Oops! 😅\n*dorm = หอพัก · library = ห้องสมุด · night market = ตลาดกลางคืน · start = เริ่ม*",
+      "type": "mc",
+      "items": [
+        {
+          "q": "Where is Mai from?",
+          "options": [
+            "Surin, Thailand",
+            "Hanoi, Vietnam",
+            "Cebu, the Philippines"
+          ],
+          "answer": 1,
+          "why": "“I’m from Hanoi, Vietnam.”"
+        },
+        {
+          "q": "What time does Mai get up?",
+          "options": [
+            "at 6:00",
+            "at 6:30",
+            "at 9:00"
+          ],
+          "answer": 1,
+          "why": "“I always get up at 6:30.”"
+        },
+        {
+          "q": "Who helps Mai with her homework?",
+          "options": [
+            "her teacher",
+            "her mom",
+            "her friend, Fon"
+          ],
+          "answer": 2,
+          "why": "“…my friend, Fon. She helps me with my Thai homework!”"
+        },
+        {
+          "q": "Mai often goes to bed early.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": 1,
+          "inline": true,
+          "why": "“I never go to bed before midnight.”"
+        },
+        {
+          "q": "How many hours is Mai on her phone every day?",
+          "options": [
+            "four",
+            "six",
+            "seven"
+          ],
+          "answer": 2,
+          "why": "“My screen time? Seven hours a day.”"
+        }
+      ]
+    }
+  ],
+  "speak": {
+    "audio": {
+      "slow": "audio/w03_scriptA_slow.mp3",
+      "normal": "audio/w03_scriptA_normal.mp3"
+    },
+    "shadowing": [
+      "Can I **ask** you some **questions** / for my **vlog**?",
+      "What **time** / do you get **up**?",
+      "I **usually** get up at **six**. / Then I take a **shower** / and have **breakfast**.",
+      "Six? **Wow**! / I **never** get up / before **seven**.",
+      "He **never** gets up / before **nine**!",
+      "What do you **do** / after **class**?",
+      "I **do** my **homework**. / Then I watch a **series** / or chat with **friends**.",
+      "I’m on my **phone** / about **four** hours a **day**."
+    ],
+    "roleplay": [
+      {
+        "level": "🟢 Easy",
+        "en": "Vlog interview. A: Can I ask you some questions for my vlog? / What time do you get up? / What do you usually do after class? / What time do you go to bed? / What’s your screen time? B: Sure! / I usually get up at… / After class, I… / I go to bed at… / About … hours a day.",
+        "th": "สัมภาษณ์ลงวล็อก (มีประโยคให้) แล้วสลับบทบาท"
+      },
+      {
+        "level": "🟡 Medium",
+        "en": "Keywords: vlog? / get up? / breakfast? / after class? / evening? / go to bed? / screen time? Use always / usually / often / sometimes / never at least 3 times. Ask one question back: “What about you?”",
+        "th": "ใช้คำใบ้สร้างบทสนทนาเอง ใช้คำบอกความถี่อย่างน้อย 3 ครั้ง"
+      },
+      {
+        "level": "🔴 Challenge",
+        "en": "You and your partner want to study English together for the midterm. Talk about your routines this week and find one time you are both free. Problem: one of you works part-time on Monday, Wednesday and Friday evenings.",
+        "th": "นัดติวสอบกลางภาคกับเพื่อน หาเวลาที่ว่างตรงกัน แต่คนหนึ่งทำงานพาร์ทไทม์เย็นวันจันทร์ พุธ ศุกร์"
+      }
+    ],
+    "aiPrompt": "You are my English speaking partner. I am a Thai university student at A1–A2 level.\nYou are Alex, a friendly vlogger who makes “day in my life” videos. Interview me about my daily routine.\nRules:\n- Use short, simple A1–A2 sentences.\n- Ask only ONE question at a time and wait for my answer.\n- Use these questions: What time do you…? / What do you usually…? / How often do you…?\n- If I write in Thai or type “ช่วยด้วย”, give a short Thai explanation and an example sentence, then continue in English.\n- After 8–10 questions, stop and give me feedback: 2 good points, and 2–3 mistakes with corrections. Explain the mistakes in Thai.\nDo not ask for my real full name, student ID, address, phone number, or any personal information.\nStart now with a greeting and your first question."
+  },
+  "quiz": {
+    "enabled": false,
+    "note": "Quiz 1 is in class this week: a Google Form (vocabulary, key expressions, grammar) and a paper listening sheet. Your teacher will give you the link.",
+    "noteTh": "แบบทดสอบครั้งที่ 1 ทำในชั้นเรียนสัปดาห์นี้: Google Forms (คำศัพท์ สำนวน ไวยากรณ์) และกระดาษคำตอบการฟัง อาจารย์จะให้ลิงก์ในห้องเรียน"
+  }
+}
