@@ -363,7 +363,11 @@
           }
         ]
       }
-    ]
+    ],
+    "image": {
+      "src": "img/w03_vlog_scene.webp",
+      "alt": "Mark films a “day in my life” vlog on his phone and holds a microphone to Ploy, who sits on a bench on campus and talks happily (cartoon illustration)."
+    }
   },
   "practice": [
     {
@@ -685,7 +689,11 @@
           "answer": 2,
           "why": "“My screen time? Seven hours a day.”"
         }
-      ]
+      ],
+      "image": {
+        "src": "img/w03_mai_market.webp",
+        "alt": "Mai, a student from Vietnam, walks through a night market in the evening with her phone in her hand (cartoon illustration)."
+      }
     }
   ],
   "speak": {
