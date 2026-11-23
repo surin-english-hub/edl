@@ -225,6 +225,16 @@
         "th": "นี่ค่ะ ทั้งหมดสองร้อยบาทค่ะ"
       },
       {
+        "who": "PLOY",
+        "en": "Let’s split the bill, Mark.",
+        "th": "หารกันนะ มาร์ค (split the bill = หารค่าอาหาร)"
+      },
+      {
+        "who": "MARK",
+        "en": "No, it’s OK. I’ll pay today.",
+        "th": "ไม่เป็นไร วันนี้ผมจ่ายเอง"
+      },
+      {
         "who": "MARK",
         "en": "Can I pay by QR code?",
         "th": "จ่ายด้วยคิวอาร์โค้ดได้ไหมครับ"
@@ -233,6 +243,16 @@
         "who": "BEE",
         "en": "Yes, of course. Thank you. Come again!",
         "th": "ได้แน่นอนค่ะ ขอบคุณค่ะ แล้วมาใหม่นะคะ"
+      },
+      {
+        "who": "MARK",
+        "en": "But next time, you pay for mookata!",
+        "th": "แต่คราวหน้า เธอเลี้ยงหมูกระทะนะ! (mookata = หมูกระทะ)"
+      },
+      {
+        "who": "PLOY",
+        "en": "Mookata? That’s not fair!",
+        "th": "หมูกระทะเหรอ ไม่แฟร์เลย!"
       }
     ],
     "exercises": [
@@ -284,6 +304,11 @@
             "q": "Mark pays by cash.",
             "answer": false,
             "why": "Mark ถามว่า “Can I pay by QR code?”"
+          },
+          {
+            "q": "Next time, Ploy pays for mookata.",
+            "answer": true,
+            "why": "Mark พูดว่า “But next time, you pay for mookata!” (หมูกระทะแพงกว่าเค้กมาก พลอยเลยบอกว่าไม่แฟร์ 😄)"
           }
         ]
       },
